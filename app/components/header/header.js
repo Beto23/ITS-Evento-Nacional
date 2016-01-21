@@ -10,9 +10,14 @@
 	});
 
 	$('.close').click(function(){
-		console.log('a')
 		popup.close();
 	});
+
+	$('#hamburguer')
+		.click(function(event) {
+			$('#hide-ul')
+				.toggleClass('ul-show');
+		});
 
 
 })();
