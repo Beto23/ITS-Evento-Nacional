@@ -1,0 +1,49 @@
+
+.Header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+	background: white;
+	margin-top:.5em;
+	width: 90%;
+	max-width: 900px;
+	margin: 0 auto;
+	transition: all 0.3s ease-out 0s;
+}
+
+	.Header-logos{
+		display: flex;
+		align-items: center;
+		justify-content:space-between;
+		margin-bottom: .5em;
+		padding: 0 1em;
+	}
+	.Header-logos-item{
+		display: flex;
+		align-items:center;
+	}
+		.Header-logos-item img{
+			height: 4em;
+		}
+		.Header-logos-item p{
+			margin-left: 1em;
+		}
+	.nav-wrapper{
+		display: flex;
+		justify-content:center;
+	}
+
+.Header
+	&-nav
+		color white
+		background $guindo
+		ul
+			display flex
+			justify-content center
+			li
+				padding 1em
+				transition background-color .5s ease
+				&:hover
+					background #681919
