@@ -1,0 +1,30 @@
+{
+  "name": "its-evento-nacional",
+  "version": "1.0.0",
+  "description": "Pagina informativa para evento de escoltas y bandas de guerra de los institutos tecnologicos",
+  "main": "index.js",
+  "dependencies": {
+    "normalize.css": "^3.0.3",
+    "reset.css": "^2.0.2"
+  },
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "file-loader": "^0.8.5",
+    "http-server": "^0.8.5",
+    "img-loader": "^1.2.2",
+    "nib": "^1.1.0",
+    "raw-loader": "^0.5.1",
+    "style-loader": "^0.13.0",
+    "stylus-loader": "^1.5.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.11",
+    "webpack-dev-server": "^1.14.1",
+    "webpack-reload-plugin": "^0.1.2"
+  },
+  "scripts": {
+    "start": "NODE_ENV=development webpack-dev-server --reload=localhost --content-base app",
+    "build": "rm -rf dist && NODE_ENV=production webpack && cp app/index.html dist/index.html",
+    "test": "rm -rf dist && NODE_ENV=production webpack && cp app/index.html dist/index.html && http-server ./dist"
+  },
+  "author": "Beto Cordoba, Edgar Zavala"
+}
