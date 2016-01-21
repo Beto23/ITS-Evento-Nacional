@@ -37,6 +37,8 @@
 
 .Header
 	&-nav
+		&-mobile
+			display none
 		color white
 		background $guindo
 		ul
@@ -48,3 +50,48 @@
 				cursor pointer
 				&:hover
 					background #681919
+
+@media (max-width:970px)
+	.Header
+		width 100%
+		max-width 100%
+		margin 0
+@media (max-width:873px)
+	.Header-nav
+		ul
+			justify-content: center;
+			text-align: center;
+			align-items: center;
+
+@media (max-width:745px)
+	.Header
+		&-logos
+			justify-content space-around
+			&-item:nth-child(1)
+				p
+					display none
+		&-nav
+			ul
+				height: 0;
+				overflow: hidden;
+				transition height 0.3s ease
+			.ul-show
+				flex-direction: column;
+				align-items: flex-start;
+				height 18em 
+				border-top: 1px solid white;
+				li
+					display: block;
+					width: 100%;
+					text-align: start;
+			&-mobile
+				display: flex;
+				justify-content: flex-end;
+				padding: 1em;
+				button
+					background: none;
+					border: none;
+				i
+					font-size: 1.5rem;
+
+
