@@ -9,7 +9,7 @@
 		max-width 1200px
 	&-msj
 		padding 3em
-		min-width 40em
+		min-width 30em
 		width 50%
 		background white
 		line-height 2em
@@ -21,20 +21,54 @@
 				margin-bottom 0
 	&-slider
 		width 100%
-		background green
+		background black
+		background url(img/1.jpg) center no-repeat
+		background-size cover
 		position relative
-		.Slider
-			overflow hidden
-			display flex
-			position: relative
-			li
-				position absolute
-				left 0
-				right 0
-				margin-right 100%
-			.indicadores
-				position absolute
-				bottom 0
-				left 0
-				right 0
-				height 2em
+		&-indicadores
+			position absolute
+			bottom 0
+			left 0
+			right 0
+			padding 1em 0
+			text-align center
+			background rgba(0, 0, 0, .5)
+			i
+				cursor: pointer
+				color #DADADA
+				margin 0 .5em
+				transition color 0.5s ease
+				&:hover
+					color $guindo
+				&.activo
+					color $guindo
+	
+@media(max-width 950px)
+	.Inicio
+		&-content
+			width 100%
+		&-msj
+			width: 100%
+			min-width value
+		&-slider
+			width 50%
+@media(max-width 700px)
+	.Inicio
+		&-content
+			justify-content center
+		&-msj
+			background transparent
+			color white
+			padding 0 .5em
+			width 50%
+		&-slider
+			display none
+@media(max-width 500px)
+	.close
+		top .5em !important
+		right .5em !important
+	.Inicio
+		&-msj
+			width inherit
+			line-height 1.5em
+			min-width inherit

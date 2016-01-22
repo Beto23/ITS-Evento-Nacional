@@ -11,3 +11,6 @@ $('#inicio').html(require('./sections/inicio/inicio.html'));
 require('./components/header/header.js');
 
 $('.Content').attr('min-height', $(window).height() + 'px');
+//$('#popup-content').html(require('./sections/inicio/inicio.html'));
+
+require('./sections/inicio/index.js')();
