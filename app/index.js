@@ -1,16 +1,15 @@
 /* Frameworks */
+var angular = require('angular');
+require('angular-ui-router');
 
 var jQuery = $ = require('jquery');
 require('normalize.css/normalize.css');
 require('reset.css/reset.css');
 require('./app.styl');
 
-$('#header').html(require('./components/header/header.html'));
-$('#inicio').html(require('./sections/inicio/inicio.html'));
+/* App */
+var app = angular.module('ITS', ['ui.router','Helpers','OnePage']);
 
-require('./components/header/header.js');
-
-$('.Content').attr('min-height', $(window).height() + 'px');
-//$('#popup-content').html(require('./sections/inicio/inicio.html'));
-
-require('./sections/inicio/index.js')();
+require('./app.config.js')(app);
+require('./sections/onePage/')();
+require('./helpers/')();
