@@ -4,6 +4,6 @@ module.exports = function(ngModule){
 	function MsjCtrl(){
 		var vm = this;
 		vm.imgs = ['./img/1.jpg','./img/2.jpg']
-		console.log(vm.imgs);
+		console.log(this);
 	}
 }

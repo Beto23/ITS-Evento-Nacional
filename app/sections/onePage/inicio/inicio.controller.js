@@ -1,9 +1,8 @@
 module.exports = function(ngModule){
 	ngModule.controller('InicioCtrl', InicioCtrl);
 
-	InicioCtrl.$inject = ['HelpersFactory','HeaderFactory']
-	function InicioCtrl(HelpersFactory, HeaderFactory){
-		HelpersFactory.bgFullPage();
+	InicioCtrl.$inject = ['HeaderFactory', 'HelpersFactory']
+	function InicioCtrl(HeaderFactory, HelpersFactory){
 
 		HeaderFactory.setHeader($('.Inicio .Inicio-title'));
 	};

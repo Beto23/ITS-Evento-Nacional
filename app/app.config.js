@@ -12,7 +12,10 @@ module.exports = function(ngApp) {
 		$stateProvider
 			.state('home',{
 				url: '/',
-				template: require('./sections/onePage/onePage.html')
+				template: require('./sections/onePage/onePage.html'),
+				controllerAs: 'onePage',
+				bindToController: true,
+				controller: 'OnePageCtrl'
 			})
 	}
 

@@ -4,8 +4,12 @@ module.exports = function(ngModule){
 	function header(){
 		return {
 			restrict: 'A',
+			scope: {
+				onePage: '='
+			},
 			template: require('./header.html'),
 			controllerAs: 'vm',
+			bindToController: true,
 			controller: 'HeaderCtrl'
 		};
 	};
