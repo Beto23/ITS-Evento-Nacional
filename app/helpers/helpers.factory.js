@@ -4,7 +4,7 @@ module.exports = function(ngModule){
 	function HelpersFactory(){
 		var Helper = {
 			bgFullPage: function(){
-				$('.bgFullPage').css('height',$(window).height() + 'px')
+				$('.bgFullPage').css('min-height',$(window).height() + 'px')
 			}
 		}
 		return Helper;
