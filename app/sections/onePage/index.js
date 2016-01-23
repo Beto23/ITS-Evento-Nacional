@@ -5,6 +5,7 @@ module.exports = function(){
 	require('./msj/')(onePageModule);
 	require('./inicio/')(onePageModule);
 	require('./propositos/')(onePageModule);
+	require('./documentacion/')(onePageModule);
 	require('./actividades/')(onePageModule);
 
 }
