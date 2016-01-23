@@ -6,6 +6,11 @@
         <div class="demo-tab tab{{$index%4}}" style="padding: 25px; text-align: center;">
           <h2>{{tab.actividad.title}}</h2>
           <p>{{tab.actividad.desc}}</p>
+          <div>
+            <map center="[{{tab.lugar.latlong}}]" zoom="18">
+              <marker position="[{{tab.lugar.latlong}}]"></div>
+            </map>
+          </div>
         </div>
       </md-tab>
     </md-tabs>

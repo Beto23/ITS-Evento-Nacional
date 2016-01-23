@@ -7,6 +7,7 @@ require('angular-carousel');
 require('angular-aria/angular-aria.js')
 require('angular-animate/angular-animate.js')
 require('angular-material/angular-material.js')
+require('ngmap');
 
 var jQuery = $ = require('jquery');
 require('normalize.css/normalize.css');
@@ -19,7 +20,7 @@ require('angular-material/angular-material.css')
 require('./app.styl');
 
 /* App */
-var app = angular.module('ITS', ['ui.router','Header','Helpers','OnePage','ngMaterial']);
+var app = angular.module('ITS', ['ui.router','Header','Helpers','OnePage','ngMaterial','ngMap']);
 
 require('./app.config.js')(app);
 require('./sections/onePage/')();
