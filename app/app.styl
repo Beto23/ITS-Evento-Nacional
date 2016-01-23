@@ -13,7 +13,11 @@ li
 	list-style none
 b,h1,h2,h3,h4,h5,h6
 	font-weight bold
-	
+p
+	line-height 1.5
+	margin-bottom 1em
+	&:last-child
+		margin-bottom 0
 .boxShadow
 	padding: 0em 2em;
 	box-shadow:  0px 3px 7px 0px rgba(50, 50, 50, 0.31);
@@ -28,6 +32,9 @@ wrapper(mw,w)
 
 .u-wrapper-80
 	wrapper(800px,80%)
+	
+.u-wrapper-50
+	wrapper(500px,50%)
 
 @import './components/header/header'
 @import './sections/convocatoria/convocatoria'

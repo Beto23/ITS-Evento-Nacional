@@ -1,10 +1,13 @@
 /* Frameworks */
 var angular = require('angular');
 require('angular-ui-router');
+require('angular-touch');
+require('angular-carousel');
 
 var jQuery = $ = require('jquery');
 require('normalize.css/normalize.css');
 require('reset.css/reset.css');
+require('angular-carousel/dist/angular-carousel.css')
 require('./app.styl');
 
 /* App */
