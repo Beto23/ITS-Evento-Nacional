@@ -20,9 +20,9 @@ module.exports = function(ngApp) {
 			.state('multimedia',{
 				url: '/multimedia',
 				template: require('./sections/multimedia/multimedia.html'),
-				controllerAs: 'onePage',
+				controllerAs: 'vm',
 				bindToController: true,
-				controller: 'OnePageCtrl'
+				controller: 'MultimediaCtrl'
 			})
 	}
 
