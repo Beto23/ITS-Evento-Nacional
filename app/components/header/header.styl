@@ -1,5 +1,5 @@
 
-.Header{
+.Header
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -7,53 +7,47 @@
 	z-index: 1000;
 	background: white;
 	margin-top:.5em;
-	width: 90%;
-	max-width: 900px;
+	width: 95%;
+	max-width: 930px;
 	margin: 0 auto;
 	transition: all 0.3s ease-out 0s;
-} 
-
-	.Header .Inicio-title{
+	align-items center
+	.Inicio-title
 		position fixed
 		top 0
 		z-index 10001
-		width: 90%;
-		max-width: 900px;
+		width: 95%;
+		max-width: 950px;
 		margin: 0 auto;
-		padding 1.6em
+		padding 1.7em
 		transition all 0.5s ease
 		color transparent
 		background transparent
 		border-color transparent
-	}
-	.Header-scrolled
+	&-scrolled
 		.Inicio-title
 			color $guindo
 			background white
-	.Header-logos{
+	&-logos
 		display: flex;
 		align-items: center;
 		justify-content:space-between;
-		margin-bottom: .5em;
-		padding: 0 1em;
-	}
-	.Header-logos-item{
-		display: flex;
-		align-items:center;
-	}
-		.Header-logos-item img{
-			height: 4em;
-		}
-		.Header-logos-item p{
-			margin-left: 1em;
-		}
-	.nav-wrapper{
-		display: flex;
-		justify-content:center;
-	}
+		margin-bottom: 0;
+		padding: .5em 1em;
+		&-item
+			display: flex;
+			align-items:center;
+			&:last-child
+				color $guindo
+			img
+				height: 4em;
+			p
+				margin-left: 1em; 
 
 .Header
 	&-nav
+		ul
+			font-size .9em
 		&-mobile
 			display none
 		color white
