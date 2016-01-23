@@ -10,7 +10,7 @@ module.exports = function(ngModule){
 			setHeader: function(selector){ 
 				angular.element($window).bind("scroll", function() {
 					var top = $(this).scrollTop();
-					if(top > (selector.position().top + selector.height())){
+					if(top > ($window.height()- $header.height())){
 						$header.addClass('Header-scrolled');
 					} else {
 						$header.removeClass('Header-scrolled');

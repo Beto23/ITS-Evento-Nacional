@@ -25,9 +25,7 @@
 		background transparent
 		border-color transparent
 	&-scrolled
-		.Inicio-title
-			color $guindo
-			background white
+		top -5em
 	&-logos
 		display: flex;
 		align-items: center;
@@ -69,6 +67,13 @@
 		width 100%
 		max-width 100%
 		margin 0
+@media (max-width:945px)
+	.Header
+		ul
+			li
+				text-align center
+				display: flex;
+				align-items: center;
 @media (max-width:873px)
 	.Header-nav
 		ul
@@ -76,7 +81,7 @@
 			text-align: center;
 			align-items: center;
 
-@media (max-width:745px)
+@media (max-width:800px)
 	.Header
 		&-logos
 			justify-content space-around
@@ -86,17 +91,18 @@
 		&-nav
 			ul
 				height: 0;
-				overflow: hidden;
 				transition height 0.3s ease
+				overflow hidden
+				display block !important
+				li
+					padding 1.3em
+					display: flex;
+					width: 100%;
 			.ul-show
 				flex-direction: column;
 				align-items: flex-start;
-				height 18em 
+				height 21.5em 
 				border-top: 1px solid white;
-				li
-					display: block;
-					width: 100%;
-					text-align: start;
 			&-mobile
 				display: flex;
 				justify-content: flex-end;
@@ -107,4 +113,7 @@
 				i
 					font-size: 1.5rem;
 
-
+@media (max-width:480px)
+	.Header-logos-item
+		&:first-child
+			display none

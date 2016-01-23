@@ -5,5 +5,9 @@ module.exports = function(ngModule){
 	function HeaderCtrl(){
 		//var vm = this;
 		//console.log(vm)
+		$('#hamburguer')
+			.click(function(event) {
+				$('#hide-ul').toggleClass('ul-show');
+			});
 	};
 };

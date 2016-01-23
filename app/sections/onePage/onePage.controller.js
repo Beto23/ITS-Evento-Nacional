@@ -11,6 +11,7 @@ module.exports = function(ngModule){
 		}
 		HelpersFactory.bgFullPage();
 
+		HeaderFactory.setHeader();
 
 		var $window = $(window);
 		var $header = $('.Header');
