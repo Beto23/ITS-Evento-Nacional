@@ -15,7 +15,7 @@ module.exports = function(ngModule){
 					nombre: 'Auditorio del IT Saltillo',
 					latlong: "25.443667,-100.991779"
 				},
-				horario: [
+				horarios: [
 					'10:00 - 13:00',
 					'16:00 - 20:00'
 				]
