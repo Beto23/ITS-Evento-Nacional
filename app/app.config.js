@@ -17,6 +17,13 @@ module.exports = function(ngApp) {
 				bindToController: true,
 				controller: 'OnePageCtrl'
 			})
+			.state('multimedia',{
+				url: '/multimedia',
+				template: require('./sections/multimedia/multimedia.html'),
+				controllerAs: 'onePage',
+				bindToController: true,
+				controller: 'OnePageCtrl'
+			})
 	}
 
 	run.$inject = ['$rootScope','$state','$stateParams'];
