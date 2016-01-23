@@ -14,40 +14,24 @@ li
 b,h1,h2,h3,h4,h5,h6
 	font-weight bold
 	
-.boxShadow{
+.boxShadow
 	padding: 0em 2em;
 	box-shadow:  0px 3px 7px 0px rgba(50, 50, 50, 0.31);
-}
-.Popup
-	transition all 0.5s ease
-	position fixed
-	top 100%
-	bottom 0
-	left 25%
-	right 25%
-	z-index 1000
-	background rgba(black, .8);
-	i.close
-		color white
-		font-size 3em
-		position fixed
-		top 1em
-		right 1em
-		z-index 1001
-		color transparent
-		transition color 1s ease
-		cursor pointer
-		user-select: none;
-.Popup-on
-	top 0
-	left 0
-	right 0
-	overflow auto
-	i.close
-		color white
+
+wrapper(mw,w)
+	margin 0 auto
+	max-width mw
+	width w
+	
+.u-wrapper-90
+	wrapper(900px,90%)
+
+.u-wrapper-80
+	wrapper(800px,80%)
 
 @import './components/header/header'
 @import './sections/convocatoria/convocatoria'
 @import './sections/programa/programa'
 
 @import './sections/onePage/inicio/inicio'
+@import './sections/onePage/msj/msj'
