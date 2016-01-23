@@ -6,6 +6,7 @@
   "dependencies": {
     "angular": "^1.4.9",
     "angular-carousel": "^1.0.1",
+    "angular-timeline": "^1.2.1",
     "angular-touch": "^1.4.9",
     "angular-ui-router": "^0.2.15",
     "jquery": "^2.2.0",
