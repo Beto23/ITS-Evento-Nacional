@@ -1,0 +1,24 @@
+.Container-Boletin
+	&-Boletines
+		margin 0 auto
+		display flex
+		flex-direction row
+		flex-wrap: wrap
+		justify-content space-around
+		.btn
+			background #980e0e !important
+			margin-bottom 1em 
+		&-Card
+			width 30% 
+			margin-bottom 5em
+
+@media(max-width 885px)
+	.Container-Boletin
+		&-Boletines
+			&-Card
+				width 40%
+@media(max-width 700px)
+	.Container-Boletin
+		&-Boletines
+			&-Card
+				width 100%
