@@ -20,7 +20,7 @@ require('angular-material/angular-material.css')
 require('./app.styl');
 
 /* App */
-var app = angular.module('ITS', ['ui.router','Header','Helpers','OnePage','ngMaterial','ngMap','Multimedia']);
+var app = angular.module('ITS', ['ui.router','Header','Helpers','OnePage', 'boletines', 'ngMaterial','ngMap','Multimedia']);
 
 require('./app.config.js')(app);
 require('./sections/onePage/')();
@@ -29,3 +29,4 @@ require('./helpers/')();
 
 require('./components/header/')();
 require('./sections/multimedia/')();
+require('./sections/boletin/')();

@@ -24,6 +24,13 @@ module.exports = function(ngApp) {
 				bindToController: true,
 				controller: 'MultimediaCtrl'
 			})
+			.state('boletines',{
+				url: '/boletines',
+				template: require('./sections/boletin/boletin.html'),
+				controllerAs: 'vm',
+				bindToController: true,
+				controller: 'BoletinCtrl'
+			})
 	}
 
 	run.$inject = ['$rootScope','$state','$stateParams'];
