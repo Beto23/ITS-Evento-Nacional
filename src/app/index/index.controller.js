@@ -1,13 +1,21 @@
 module.exports = function(ngModule){
-	ngModule.controller('OnePageCtrl', OnePageCtrl);
+	ngModule.controller('AppCtrl', AppCtrl);
 
-	OnePageCtrl.$inject = ['HeaderFactory','HelpersFactory','$scope']
-	function OnePageCtrl(HeaderFactory,HelpersFactory,$scope){
-		var onePage = this; 
-		onePage.sectionActive = 'Inicio';
-		onePage.changeSection = function(sectionID){
-			HeaderFactory.scrollDown(sectionID);
-			onePage.sectionActive = sectionID;
+	AppCtrl.$inject = ['HeaderFactory','HelpersFactory','$scope']
+	function AppCtrl(HeaderFactory,HelpersFactory,$scope){
+		var app = this; 
+		app.sectionActive = 'Inicio';
+		app.changeSection = function(sectionID){
+			if(app.sectionActive == 'Multimedia' || app.sectionActive == 'Boletin'){
+				setTimeout(function(){
+					HeaderFactory.scrollDown(sectionID);
+
+				},1000)
+				app.sectionActive = sectionID;
+			} else {
+				app.sectionActive = sectionID;
+				HeaderFactory.scrollDown(sectionID);
+			}
 		}
 		HelpersFactory.bgFullPage();
 
@@ -40,8 +48,9 @@ module.exports = function(ngModule){
 			var top = $(this).scrollTop() + $header.height();
 
 			sections.forEach(function(section){
+				if(app.sectionActive != 'Multimedia' && app.sectionActive != 'Boletin')
 				if((top >= section.top) && (top <= section.bottom)){  
-					onePage.sectionActive = section.id;
+					app.sectionActive = section.id;
 					$scope.$apply();
 				}
 			})

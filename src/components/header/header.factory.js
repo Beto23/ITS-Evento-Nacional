@@ -18,9 +18,14 @@ module.exports = function(ngModule){
 				});
 			},
 			scrollDown: function(sectionID){
-				$body.animate({
-					scrollTop: $("#"+sectionID).offset().top - $header.height()
-				}, 700);
+				if(sectionID !== 'Multimedia' && sectionID !== 'Boletin'){
+					var id = '#' + sectionID;
+					$body.animate({
+						scrollTop: $(id).position().top - $header.height()
+					}, 900)
+				} else {
+					$(window).scrollTop(0)
+				}
 			} 
 		}
 

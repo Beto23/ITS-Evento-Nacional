@@ -4,15 +4,15 @@ var ReloadPlugin = require('webpack-reload-plugin');
 var nib = require('nib');
 
 var PATHS = {
-	app: path.join(__dirname, 'app'),
+	src: path.join(__dirname, 'src'),
 	dist: path.join(__dirname, 'dist')
 };
 
 var config = {
-	context: PATHS.app,
-	entry: PATHS.app,
+	context: PATHS.src,
+	entry: PATHS.src,
 	output: {
-		path: PATHS.app,
+		path: PATHS.src,
 		filename: 'bundle.js'
 	},
 	plugins: [

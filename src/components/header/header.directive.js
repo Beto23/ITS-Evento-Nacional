@@ -5,7 +5,7 @@ module.exports = function(ngModule){
 		return {
 			restrict: 'A',
 			scope: {
-				onePage: '='
+				app: '='
 			},
 			template: require('./header.html'),
 			controllerAs: 'vm',
