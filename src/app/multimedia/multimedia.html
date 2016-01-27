@@ -1,8 +1,29 @@
-<!--<header header one-page="vm"></header>-->
-<section id="Multimedia" class="bgFullPage Multimedia OnePageSection" >
-	<ul id="lightgallery" class="u-wrapper-80">
-		<a ng-repeat="img in imgs  track by $index" href="{{img}}">
-			<img src="{{img}}" />
-		</a> 
-	</div>
+<header header one-page="vm"></header>
+<section class="Multimedia u-wrapper-90">
+	<!-- add `multiple` attribute to allow multiple sections to open at once -->
+	<v-accordion class="vAccordion--default" multiple>
+
+	  <!-- add expanded attribute to open the section -->
+	  <v-pane expanded>
+	    <v-pane-header>
+	      Galeria
+	    </v-pane-header>
+	    <v-pane-content>
+			<ignaguracion></ignaguracion>
+	    </v-pane-content>
+	  </v-pane>
+	</v-accordion>
+	<!-- add `multiple` attribute to allow multiple sections to open at once -->
+	<v-accordion class="vAccordion--default" multiple>
+
+	  <!-- add expanded attribute to open the section -->
+	  <v-pane expanded>
+	    <v-pane-header>
+	      Videos
+	    </v-pane-header>
+	    <v-pane-content>
+			Holaa
+	    </v-pane-content>
+	  </v-pane>
+	</v-accordion>
 </section>
