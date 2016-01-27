@@ -5,55 +5,62 @@ module.exports = function(ngModule){
 	function AppCtrl(HeaderFactory,HelpersFactory,$scope){
 		var app = this; 
 		app.sectionActive = 'Inicio';
-		app.changeSection = function(sectionID){
-			if(app.sectionActive == 'Multimedia' || app.sectionActive == 'Boletin'){
-				setTimeout(function(){
-					HeaderFactory.scrollDown(sectionID);
 
-				},1000)
-				app.sectionActive = sectionID;
-			} else {
-				app.sectionActive = sectionID;
-				HeaderFactory.scrollDown(sectionID);
-			}
-		}
-		HelpersFactory.bgFullPage();
-
-		HeaderFactory.setHeader();
-
+		$('.bgFullPage').css('height',$(window).height() + 'px')
+		var $body = $('body, html');
 		var $window = $(window);
 		var $header = $('.Header');
-		var h = $window.height(); 
+
+		app.changeSection = function(sectionID){
+			scrollDown(sectionID, app.sectionActive)
+			app.sectionActive = sectionID;
+		}
+
 		var sections = [];
-		
-		/* Top and bottom de cada seccion del scroll down */
-		var $onePageSections = $('.OnePageSection');
-		$onePageSections.each(function(){
-			// Detectar cual seccion es ej: Historia, su top y bottom
-			var sectionID = $(this).attr('id');
-
-			var top = $('#'+sectionID).position().top;
+		$('.OnePageSection').each(function(){
+			var id = $(this).attr('id');
+			var top = $(this).offset().top;
 			var bottom = top + $(this).height();
-
 			var section = {
-				id: sectionID,
+				id: id,
 				top: top,
 				bottom: bottom
 			}
 			sections.push(section);
 		})
- 
-		//cuando se scrollea se cambia la seccion activa y se propaga el valor hacia el padre
-		angular.element($window).bind("scroll", function() {
-			var top = $(this).scrollTop() + $header.height();
 
-			sections.forEach(function(section){
-				if(app.sectionActive != 'Multimedia' && app.sectionActive != 'Boletin')
-				if((top >= section.top) && (top <= section.bottom)){  
-					app.sectionActive = section.id;
-					$scope.$apply();
+
+		function scrollDown(sectionID, cameFrom){
+			if(cameFrom == 'Boletin'){
+					setTimeout(function(){
+						$(window).scrollTop(0)
+						topOfElements.forEach(function(elem){
+							if(elem.id == sectionID){
+								$body.animate({
+									scrollTop: elem.top
+								}, 700)
+								return
+							}
+						})
+					},100)
+				} else {
+					if(sectionID !== 'Boletin'){
+						$body.animate({
+							scrollTop: $('#'+sectionID).offset().top - 40
+						}, 700)
+					} else {
+						$(window).scrollTop(0)
+					}
 				}
-			})
+		}
+
+		angular.element($window).bind("scroll", function() {
+			var top = $(this).scrollTop();
+			if(top > ($window.height()- $header.height())){
+				$header.addClass('Header-scrolled');
+			} else {
+				$header.removeClass('Header-scrolled');
+			}
 		});
 	}
 }

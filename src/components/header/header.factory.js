@@ -6,7 +6,8 @@ module.exports = function(ngModule){
 		var $header = $('.Header');
 		var $body = $('body, html');
 
-		var header = {
+		var header = {};
+		/*var header = {
 			setHeader: function(selector){ 
 				angular.element($window).bind("scroll", function() {
 					var top = $(this).scrollTop();
@@ -27,7 +28,7 @@ module.exports = function(ngModule){
 					$(window).scrollTop(0)
 				}
 			} 
-		}
+		}*/
 
 		return header;
 	}

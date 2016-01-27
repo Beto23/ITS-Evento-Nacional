@@ -11,7 +11,7 @@ module.exports = function(ngModule){
 					title: "Curso-Taller de Actualización Técnica",
 					desc: "Dirigido a Instructores del nivel básico y medio superior de la localidad Técnica"
 				},
-				lugar:[
+				lugares:[
 						{
 							nombre: 'Auditorio del IT Saltillo',
 							latlong: "25.443667,-100.991779"

@@ -10,12 +10,12 @@ module.exports = function(ngApp) {
 		$urlRouterProvider.otherwise('/');
 
 		$stateProvider
-			.state('app',{
+			/*.state('app',{
 				url: '/',
 				template: require('./app/index/index.html'),
 				controllerAs: 'app',
 				controller: 'AppCtrl'
-			})
+			})*/
 	}
 
 	run.$inject = ['$rootScope','$state','$stateParams'];
