@@ -1,57 +1,23 @@
-<section class="gris">
-	<article id="Documentacion" class="OnePageSection u-wrapper-90 bgFullPage Documentacion gris">
-	  <h2 class="wow bounceInRight">Programación De Actividades Por Delegación</h2>
-	  <ul class="Documentacion-Container">
-	  	<div>
-		  	<a href="">
-		  		<li class="Documentacion-Container-Delegaciones">
-		  			<img src="img/logoITS.png" alt="">
-		  			<span>IT Saltillo</span>
-		  		</li>
-		  	</a>
-	  	</div>
-	  	<div>
-		  	<a href="">
-		  		<li class="Documentacion-Container-Delegaciones">
-		  			<img src="img/logoITS.png" alt="">
-		  			<span>IT Saltillo</span>
-		  		</li>
-		  	</a>
-	  	</div>
-	  	<div>
-		  	<a href="">
-		  		<li class="Documentacion-Container-Delegaciones">
-		  			<img src="img/logoITS.png" alt="">
-		  			<span>IT Saltillo</span>
-		  		</li>
-		  	</a>
-	  	</div>
-	  	<div>
-		  	<a href="">
-		  		<li class="Documentacion-Container-Delegaciones">
-		  			<img src="img/logoITS.png" alt="">
-		  			<span>IT Saltillo</span>
-		  		</li>
-		  	</a>
-	  	</div>
-	  	<div>
-		  	<a href="">
-		  		<li class="Documentacion-Container-Delegaciones">
-		  			<img src="img/logoITS.png" alt="">
-		  			<span>IT Saltillo</span>
-		  		</li>
-		  	</a>
-	  	</div>
-	  	<div>
-		  	<a href="">
-		  		<li class="Documentacion-Container-Delegaciones">
-		  			<img src="img/logoITS.png" alt="">
-		  			<span>IT Saltillo</span>
-		  		</li>
-		  	</a>
-	  	</div>
+<section id="Documentacion" class="OnePageSection  bgFullPage Documentacion gris">
+  <div layout="column" flex layout-fill ng-cloak class="u-wrapper-90 Docu">
+      <div class="title-programacion"><h2 class="wow bounceInRight">Programación De Actividades Por Delegación</h2></div>
+    <md-content style="height: 600px;" md-theme="altTheme">
+      <section>
+        <md-subheader class="md-primary">Tecnológicos Participantes</md-subheader>
+        <md-list layout-padding>
+          <md-list-item class="md-3-line" ng-repeat="delegacion in delegaciones">
+              <img ng-src="{{delegacion.logoTec}}" class="md-avatar">
+              <div class="md-list-item-text">
+                <h3>{{delegacion.tec}}</h3>
+                <h4><a href="#">{{delegacion.programacion}}</a></h4>
+                <p>
+                  {{delegacion.municipio}}
+                </p>
+              </div>
+          </md-list-item>
+        </md-list>
+      </section>
 
-	  </ul>
-
-	</article>
+    </md-content>
+  </div>
 </section>
