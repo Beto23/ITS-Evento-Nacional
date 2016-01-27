@@ -1,5 +1,5 @@
 
-<div id="Actividades"  class="sample OnePage bgFullPage Actividades OnePageSection" layout="column" ng-cloak>
+<div id="Actividades"  class="sample OnePage bgFullPage Actividades OnePageSection">
   <md-content class="md-padding u-wrapper-90">
     <md-tabs md-selected="selectedIndex" md-border-bottom="" md-autoselect="" class="md-tabs">
       <md-tab ng-repeat="tab in vm.tabs" ng-disabled="tab.disabled" label="{{tab.title}}">
@@ -11,7 +11,7 @@
           </ul>
           <div>
             <map center="[{{tab.lugares[0].latlong}}]" zoom="18">
-              <marker position="[{{tab.lugares[0].latlong}}]"></div>
+              <marker position="[{{tab.lugares[0].latlong}}]"></marker>
             </map>
           </div>
         </div>

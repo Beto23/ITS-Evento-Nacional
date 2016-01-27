@@ -6,7 +6,7 @@ module.exports = function(ngModule){
 		var app = this; 
 		app.sectionActive = 'Inicio';
 
-		$('.bgFullPage').css('height',$(window).height() + 'px')
+		$('.bgFullPage').css('min-height',$(window).height() + 'px')
 		var $body = $('body, html');
 		var $window = $(window);
 		var $header = $('.Header');
@@ -28,6 +28,8 @@ module.exports = function(ngModule){
 			}
 			sections.push(section);
 		})
+
+		console.log(sections)
 
 
 		function scrollDown(sectionID, cameFrom){
@@ -61,6 +63,13 @@ module.exports = function(ngModule){
 			} else {
 				$header.removeClass('Header-scrolled');
 			}
+			sections.forEach(function(section){
+				if((top >= (section.top-50)) && (top <= section.bottom)){
+					app.sectionActive = section.id; 
+					$scope.$apply();
+					return;
+				}
+			})
 		});
 	}
 }
