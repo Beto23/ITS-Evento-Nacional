@@ -16,7 +16,8 @@
     "lightgallery": "^1.2.14",
     "ngmap": "^1.16.8",
     "normalize.css": "^3.0.3",
-    "reset.css": "^2.0.2"
+    "reset.css": "^2.0.2",
+    "v-accordion": "^1.4.1"
   },
   "devDependencies": {
     "css-loader": "^0.23.1",
