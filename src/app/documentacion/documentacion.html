@@ -3,16 +3,19 @@
       <div class="title-programacion"><h2 class="wow bounceInRight">Programación De Actividades Por Delegación</h2></div>
     <md-content style="height: 600px;" md-theme="altTheme">
       <section>
-        <md-subheader class="md-primary">Tecnológicos Participantes</md-subheader>
-        <md-list layout-padding>
-          <md-list-item class="md-3-line" ng-repeat="delegacion in delegaciones">
+        <md-subheader class="md-primary">
+          <p>Tecnológicos Participantes</p>
+          <i class="fa fa-search">
+            <input type="text" class="input" ng-model="search">
+          </i>
+        </md-subheader>
+        <md-list layout-padding class="container-delegaciones">
+          <md-list-item class="md-3-line container-delegaciones-items" ng-repeat="delegacion in delegaciones | filter:search">
               <img ng-src="{{delegacion.logoTec}}" class="md-avatar">
               <div class="md-list-item-text">
                 <h3>{{delegacion.tec}}</h3>
-                <h4><a href="#">{{delegacion.programacion}}</a></h4>
-                <p>
-                  {{delegacion.municipio}}
-                </p>
+                <h4><a href="{{delegacion.href}}"><i class="fa fa-arrow-circle-down"></i> Programacion</a></h4>
+                <p>{{delegacion.sede}}</p>
               </div>
           </md-list-item>
         </md-list>
