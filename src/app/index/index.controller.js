@@ -12,7 +12,7 @@ module.exports = function(ngModule){
 		var $header = $('.Header');
 
 		app.changeSection = function(sectionID){
-			scrollDown(sectionID, app.sectionActive)
+			scrollDown(sectionID)
 			app.sectionActive = sectionID;
 		}
 
@@ -29,31 +29,12 @@ module.exports = function(ngModule){
 			sections.push(section);
 		})
 
-		console.log(sections)
 
 
-		function scrollDown(sectionID, cameFrom){
-			if(cameFrom == 'Boletin'){
-					setTimeout(function(){
-						$(window).scrollTop(0)
-						topOfElements.forEach(function(elem){
-							if(elem.id == sectionID){
-								$body.animate({
-									scrollTop: elem.top
-								}, 700)
-								return
-							}
-						})
-					},100)
-				} else {
-					if(sectionID !== 'Boletin'){
-						$body.animate({
-							scrollTop: $('#'+sectionID).offset().top - 40
-						}, 700)
-					} else {
-						$(window).scrollTop(0)
-					}
-				}
+		function scrollDown(sectionID){
+			$body.animate({
+				scrollTop: $('#'+sectionID).offset().top - 40
+			}, 700)
 		}
 
 		angular.element($window).bind("scroll", function() {

@@ -1,5 +1,6 @@
 module.exports = function(ngModule){
 	ngModule.directive('header',header);
+	ngModule.directive('headerReturn',headerReturn);
 
 	function header(){
 		return {
@@ -11,6 +12,12 @@ module.exports = function(ngModule){
 			controllerAs: 'vm',
 			bindToController: true,
 			controller: 'HeaderCtrl'
+		};
+	};
+	function headerReturn(){
+		return {
+			restrict: 'E',
+			template: require('./headerReturn.html')
 		};
 	};
 };

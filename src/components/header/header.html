@@ -20,7 +20,7 @@
          <li class="link" ng-click="vm.app.changeSection('Documentacion')"ng-class="{sectionActive: vm.app.sectionActive === 'Documentacion'}">Documentación</li>
          <li class="link" ng-click="vm.app.changeSection('Actividades')"ng-class="{sectionActive: vm.app.sectionActive === 'Actividades'}">Programa de actividades</li>
          <li class="link" ng-click="vm.app.changeSection('Sedes')" ng-class="{sectionActive: vm.app.sectionActive === 'Sedes'}">Sedes de encuentros</li>
-          <li class="link" ng-click="vm.app.changeSection('Multimedia')"ng-class="{sectionActive: vm.app.sectionActive === 'Multimedia'}">Multimedia</li>
-          <li class="link" ng-click="vm.app.changeSection('Boletin')"ng-class="{sectionActive: vm.app.sectionActive === 'Boletin'}">Boletín</li>
+          <li class="link"  ui-sref="multimedia">Multimedia</li>
+          <li class="link" ui-sref="boletin">Boletín</li>
         </ul>
 </header>
