@@ -5,6 +5,7 @@ module.exports = function(ngModule){
 		return {
 			restrict: 'E',
 			template: require('./multimedia.html'),
+			controllerAs: 'multimedia',
 			controller: 'MultimediaCtrl'
 		}
 	}

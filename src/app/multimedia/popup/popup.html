@@ -1,0 +1,8 @@
+<section class="Popup">
+	<i class="fa fa-times Popup-close" ng-click="popup.isPopupOn = false"> </i>
+	<ul id="lightgallery">
+		<a ng-repeat="img in popup.imgs  track by $index" href="{{img}}">
+			<img src="{{img}}" />
+		</a>
+	</ul>
+</section>

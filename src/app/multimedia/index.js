@@ -3,5 +3,5 @@ module.exports = function(ngModule){
 	require('./multimedia.styl')
 	require('./multimedia.controller.js')(ngModule);
 	require('./multimedia.directive.js')(ngModule);
-	require('./galeria/inaguracion')(ngModule);
+	require('./popup/')(ngModule);
 }
