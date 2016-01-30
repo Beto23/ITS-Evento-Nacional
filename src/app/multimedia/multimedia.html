@@ -1,79 +1,75 @@
-<!--<header header one-page="vm"></header>-->
-<section id="Multimedia" class="Multimedia u-wrapper-90 OnePageSection">
-	<!--<ul id="lightgallery">
-		<a ng-repeat="img in multimedia.imgs  track by $index" href="{{img}}">
-			<img src="{{img}}" />
-		</a>
-	</ul> -->
-	<popup-galeria ng-show="multimedia.isPopupOn" imgs="multimedia.imgs" is-popup-on="multimedia.isPopupOn"></popup-galeria>
-	<div id="Multimedia-galeria">
-		<h2 class="Multimedia-type"><i class="fa fa-camera-retro"></i>Galería</h2>
-		<article class="Multimedia-galeria Multimedia-content">
-			<div class="Galeria-img">
-				<figure ng-click="multimedia.isPopupOn = true" style="background-image: url(./img/1.jpg)"></figure >
-				<h3>Inaguración</h3>
-				<span>10 febrero 2015</span>
-			</div>
-			<div class="Galeria-img">
-				<figure ng-click="multimedia.isPopupOn = true"  style="background-image: url(./img/1.jpg)"></figure>
-				<h3>Inaguración</h3>
-				<span>10 febrero 2015</span>
-			</div>
-			<div class="Galeria-img">
-				<figure ng-click="multimedia.isPopupOn = true"  style="background-image: url(./img/1.jpg)"></figure>
-				<h3>Inaguración</h3>
-				<span>10 febrero 2015</span>
-			</div>
-			<div class="Galeria-img">
-				<figure ng-click="multimedia.isPopupOn = true"  style="background-image: url(./img/1.jpg)"></figure>
-				<h3>Inaguración</h3>
-				<span>10 febrero 2015</span>
-			</div>
-			<div class="Galeria-img">
-				<figure ng-click="multimedia.isPopupOn = true"  style="background-image: url(./img/1.jpg)"></figure>
-				<h3>Inaguración</h3>
-				<span>10 febrero 2015</span>
-			</div>
-			<div class="Galeria-img">
-				<figure ng-click="multimedia.isPopupOn = true"  style="background-image: url(./img/1.jpg)"></figure>
-				<h3>Inaguración</h3>
-				<span>10 febrero 2015</span>
-			</div>
-		</article>
-	</div>
-	<div id="Multimedia-videos">
-		<h2 class="Multimedia-type"><i class="fa fa-video-camera"></i>Videos</h2>
-		<article class="Multimedia-videos Multimedia-content">
-			<div class="Galeria-img">
-				<figure ng-click="multimedia.isPopupOn = true" style="background-image: url(./img/1.jpg)"></figure >
-				<h3>Inaguración</h3>
-				<span>10 febrero 2015</span>
-			</div>
-			<div class="Galeria-img">
-				<figure ng-click="multimedia.isPopupOn = true"  style="background-image: url(./img/1.jpg)"></figure>
-				<h3>Inaguración</h3>
-				<span>10 febrero 2015</span>
-			</div>
-			<div class="Galeria-img">
-				<figure ng-click="multimedia.isPopupOn = true"  style="background-image: url(./img/1.jpg)"></figure>
-				<h3>Inaguración</h3>
-				<span>10 febrero 2015</span>
-			</div>
-			<div class="Galeria-img">
-				<figure ng-click="multimedia.isPopupOn = true"  style="background-image: url(./img/1.jpg)"></figure>
-				<h3>Inaguración</h3>
-				<span>10 febrero 2015</span>
-			</div>
-			<div class="Galeria-img">
-				<figure ng-click="multimedia.isPopupOn = true"  style="background-image: url(./img/1.jpg)"></figure>
-				<h3>Inaguración</h3>
-				<span>10 febrero 2015</span>
-			</div>
-			<div class="Galeria-img">
-				<figure ng-click="multimedia.isPopupOn = true"  style="background-image: url(./img/1.jpg)"></figure>
-				<h3>Inaguración</h3>
-				<span>10 febrero 2015</span>
-			</div>
-		</article>
+<section id="Multimedia" class="Multimedia bgFullPage OnePageSection gris">
+	<div class="u-wrapper-90">
+		<popup-galeria ng-show="multimedia.isPopupOn" imgs="multimedia.imgs" is-popup-on="multimedia.isPopupOn"></popup-galeria>
+		<div id="Multimedia-galeria">
+			<h2 class="Multimedia-type"><i class="fa fa-camera-retro"></i>Galería</h2>
+			<article class="Multimedia-galeria Multimedia-content isOpen">
+				<div class="Galeria-img">
+					<figure ng-click="multimedia.isPopupOn = true" style="background-image: url(./img/1.jpg)"></figure >
+					<h3>Inaguración</h3>
+					<span>10 febrero 2015</span>
+				</div>
+				<div class="Galeria-img">
+					<figure ng-click="multimedia.isPopupOn = true"  style="background-image: url(./img/1.jpg)"></figure>
+					<h3>Inaguración</h3>
+					<span>10 febrero 2015</span>
+				</div>
+				<div class="Galeria-img">
+					<figure ng-click="multimedia.isPopupOn = true"  style="background-image: url(./img/1.jpg)"></figure>
+					<h3>Inaguración</h3>
+					<span>10 febrero 2015</span>
+				</div>
+				<div class="Galeria-img">
+					<figure ng-click="multimedia.isPopupOn = true"  style="background-image: url(./img/1.jpg)"></figure>
+					<h3>Inaguración</h3>
+					<span>10 febrero 2015</span>
+				</div>
+				<div class="Galeria-img">
+					<figure ng-click="multimedia.isPopupOn = true"  style="background-image: url(./img/1.jpg)"></figure>
+					<h3>Inaguración</h3>
+					<span>10 febrero 2015</span>
+				</div>
+				<div class="Galeria-img">
+					<figure ng-click="multimedia.isPopupOn = true"  style="background-image: url(./img/1.jpg)"></figure>
+					<h3>Inaguración</h3>
+					<span>10 febrero 2015</span>
+				</div>
+			</article>
+		</div>
+		<div id="Multimedia-videos">
+			<h2 class="Multimedia-type"><i class="fa fa-video-camera"></i>Videos</h2>
+			<article class="Multimedia-videos Multimedia-content isOpen">
+				<div class="Galeria-img">
+					<figure ng-click="multimedia.isPopupOn = true" style="background-image: url(./img/1.jpg)"></figure >
+					<h3>Inaguración</h3>
+					<span>10 febrero 2015</span>
+				</div>
+				<div class="Galeria-img">
+					<figure ng-click="multimedia.isPopupOn = true"  style="background-image: url(./img/1.jpg)"></figure>
+					<h3>Inaguración</h3>
+					<span>10 febrero 2015</span>
+				</div>
+				<div class="Galeria-img">
+					<figure ng-click="multimedia.isPopupOn = true"  style="background-image: url(./img/1.jpg)"></figure>
+					<h3>Inaguración</h3>
+					<span>10 febrero 2015</span>
+				</div>
+				<div class="Galeria-img">
+					<figure ng-click="multimedia.isPopupOn = true"  style="background-image: url(./img/1.jpg)"></figure>
+					<h3>Inaguración</h3>
+					<span>10 febrero 2015</span>
+				</div>
+				<div class="Galeria-img">
+					<figure ng-click="multimedia.isPopupOn = true"  style="background-image: url(./img/1.jpg)"></figure>
+					<h3>Inaguración</h3>
+					<span>10 febrero 2015</span>
+				</div>
+				<div class="Galeria-img">
+					<figure ng-click="multimedia.isPopupOn = true"  style="background-image: url(./img/1.jpg)"></figure>
+					<h3>Inaguración</h3>
+					<span>10 febrero 2015</span>
+				</div>
+			</article>
+		</div>
 	</div>
 </section>
