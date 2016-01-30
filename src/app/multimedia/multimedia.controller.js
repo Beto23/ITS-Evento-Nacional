@@ -4,7 +4,7 @@ module.exports = function(ngModule){
 	function MultimediaCtrl(){
 		var multimedia = this;
 		multimedia.isPopupOn = false;
-		multimedia.eventoSeleccionado = [];
+		multimedia.eventoSeleccionado = ['./img/1.jpg','./img/2.jpg','./img/1.jpg','./img/2.jpg','./img/1.jpg','./img/2.jpg','./img/1.jpg','./img/2.jpg','./img/1.jpg','./img/2.jpg','./img/1.jpg','./img/2.jpg','./img/1.jpg','./img/2.jpg','./img/1.jpg','./img/2.jpg','./img/1.jpg','./img/2.jpg'];
 		$('.Multimedia-type').click(function(){
 			var op = $(this).parent().attr('id');
 			$('.'+op).toggleClass('isOpen')

@@ -1,3 +1,6 @@
+/****** require para imagenes ******/
+require('./img/1.jpg');
+require('./img/2.jpg');
 /* Frameworks */
 var angular = require('angular');
 require('angular-ui-router');
