@@ -1,25 +1,40 @@
 .Container-Boletin
-	padding-top 10em
+	padding-top 8em
+	h2
+		padding 0
 	&-Boletines
 		margin 0 auto
 		display flex
 		flex-direction row
 		flex-wrap: wrap
-		justify-content space-around
+		justify-content space-between
 		.btn
 			background #980e0e !important
 			margin-bottom 1em 
 		&-Card
-			width 30% 
+			width 33.3333% 
 			margin-bottom 5em
+			img
+				width 100% 
+				height 10.3em
 
-@media(max-width 885px)
+
+@media(max-width 960px)
 	.Container-Boletin
 		&-Boletines
 			&-Card
-				width 40%
+				width 50%
 @media(max-width 768px)
 	.Container-Boletin
 		&-Boletines
 			&-Card
 				width 100%
+				img
+					height 13em
+@media(max-width 422px)
+	.Container-Boletin
+		&-Boletines
+			&-Card
+				img
+					height 10em
+
