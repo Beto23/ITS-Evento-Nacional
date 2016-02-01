@@ -20,7 +20,7 @@ module.exports = function(ngModule){
 		};
 
 	};
-	Boletin1Ctrl.$inject = ['$scope', '$mdDialog']
+	DialogController.$inject = ['$scope', '$mdDialog']
 	function DialogController($scope, $mdDialog) {
 	  $scope.hide = function() {
 	    $mdDialog.hide();
