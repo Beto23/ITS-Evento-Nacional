@@ -24,8 +24,8 @@ module.exports = function(ngModule){
 				id: 1, 
 				title: '21 al 23 enero',
 				actividad: {
-					title: "Curso-Taller de Actualización Técnica",
-					desc: "Dirigido a Instructores del nivel básico y medio superior de la localidad Técnica"
+					title: "Curso-Taller de Actualizaci\u00F3n T\u00E9cnica",
+					desc: "Dirigido a Instructores del nivel b\u00E1sico y medio superior de la localidad T\u00E9cnica"
 				},
 				lugares:[
 						{
@@ -42,12 +42,12 @@ module.exports = function(ngModule){
 				id: 2,
 				title: '27 al 29 enero',
 				actividad: {
-					title: "Reunión Técnica",
-					desc: "Equipo de apoyo técnico cívico e Instructores de escoltas y bandas de guerra de los institutos participantes."
+					title: "Reuni\u00F3n T\u00E9cnica",
+					desc: "Equipo de apoyo t\u00E9cnico c\u00EDvico e Instructores de escoltas y bandas de guerra de los institutos participantes."
 				},
 				lugares:[
 						{
-							nombre: 'Auditorio de Gestión Tecnológica y Vinculación del ITS.',
+							nombre: 'Auditorio de Gesti\u00F3n Tecnol\u00F3gica y Vinculaci\u00F3n del ITS.',
 							latlong: "25.443667,-100.991779"
 						}
 					],
@@ -79,7 +79,7 @@ module.exports = function(ngModule){
 				title: '21 y 22 Febrero',
 				actividad: {
 					title: "Ensayos generales",
-					desc: "Escoltas y bandas de guerra de los tecnológicos"
+					desc: "Escoltas y bandas de guerra de los tecnol\u00F3gicos"
 				},
 				lugares:[
 							{
@@ -91,7 +91,7 @@ module.exports = function(ngModule){
 								latlong: "25.4335048,-100.9792932"
 							},
 							{
-								nombre: 'Estadio Olímpico',
+								nombre: 'Estadio Ol\u00EDmpico',
 								latlong: "25.431873, -100.979790"
 							}
 					],
@@ -105,11 +105,11 @@ module.exports = function(ngModule){
 				title: '23 Febrero',
 				actividad: {
 					title: "Visita a Escuelas",
-					desc: "120 presentaciones de las Escoltas y Bandas de Guerra de los Institutos Tecnológicos participantes"
+					desc: "120 presentaciones de las Escoltas y Bandas de Guerra de los Institutos Tecnol\u00F3gicos participantes"
 				},
 				lugares:[
 							{
-								nombre: 'Escuelas de nivel básico y medio superior',
+								nombre: 'Escuelas de nivel b\u00E1sico y medio superior',
 								latlong: "25.4267244, -100.99542539999999"
 							}
 						],
@@ -123,7 +123,7 @@ module.exports = function(ngModule){
 				id:6,
 				title: '23 Febrero',
 				actividad: {
-					title: "Toma de fotografía oficial",
+					title: "Toma de fotograf\u00EDa oficial",
 					desc: ""
 				},
 				lugares:[
@@ -142,7 +142,7 @@ module.exports = function(ngModule){
 				title: '24 Febrero',
 				actividad: {
 					title: "Izamiento de bandera",
-					desc: "Incineración de bandera y abanderamiento"
+					desc: "Incineraci\u00F3n de bandera y abanderamiento"
 				},
 				lugares:[
 							{
@@ -182,12 +182,12 @@ module.exports = function(ngModule){
 				id:9,
 				title: '24 Febrero',
 				actividad: {
-					title: "Ceremonia de Inauguración",
+					title: "Ceremonia de Inauguraci\u00F3n",
 					desc: ""
 				},
 				lugares:[
 							{
-								nombre: 'Estadio de béisbol Fco. I Madero',
+								nombre: 'Estadio de b\u00E9isbol Fco. I Madero',
 								latlong: "25.4335048,-100.9792932"
 							}
 						],
@@ -219,7 +219,7 @@ module.exports = function(ngModule){
 				id: 11,
 				title: '25 Febrero',
 				actividad: {
-					title: "Presentaciones en plazas públicas",
+					title: "Presentaciones en plazas p\u00FAblicas",
 					desc: ""
 				},
 				lugares:[
@@ -236,11 +236,11 @@ module.exports = function(ngModule){
 								latlong: "25.441544, -100.992572"
 							},
 							{
-								nombre: 'Jardín de los Cedros y los Olivos',
+								nombre: 'Jard\u00EDn de los Cedros y los Olivos',
 								latlong: "25.463203, -100.963938"
 							},
 							{
-								nombre: 'Plaza México',
+								nombre: 'Plaza M\u00E9xico',
 								latlong: "25.412317, -101.000170"
 							},
 							{
