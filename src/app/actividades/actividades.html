@@ -16,7 +16,7 @@
             <li ng-repeat="hra in tab.horarios">{{hra}}</li>
           </ul>
           </p>
-          <md-button class="md-raised md-primary btn" ng-if="tab.id == 3"><a href="">Convocarotia</a></md-button>
+          <md-button class="md-raised md-primary btn" ng-if="tab.id == 3"><a href="./pdfs/burrito- bandero.pdf" target="_blank">Convocarotia</a></md-button>
           <div>
             <map ng-if="tab.id != 12" center="[{{tab.lugares[0].latlong}}]" zoom="14">
               <marker ng-repeat="lugar in tab.lugares" position="[{{lugar.latlong}}]"></marker>
