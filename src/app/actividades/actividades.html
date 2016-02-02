@@ -6,12 +6,19 @@
         <div class="demo-tab tab{{$index%4}}" style="padding: 25px; text-align: center;">
           <h2>{{tab.actividad.title}}</h2>
           <p>{{tab.actividad.desc}}</p>
+          <ul>
+            <p><b>Lugare(s):</b></p>
+            <li ng-repeat="lugar in tab.lugares"> {{lugar.nombre}}</li>
+          </ul>
+          <p>
           <ul class="tab-horarios">
+            <p><b>Horarios</b></p>
             <li ng-repeat="hra in tab.horarios">{{hra}}</li>
           </ul>
+          </p>
           <div>
-            <map center="[{{tab.lugares[0].latlong}}]" zoom="18">
-              <marker position="[{{tab.lugares[0].latlong}}]"></marker>
+            <map center="[{{tab.lugares[0].latlong}}]" zoom="14">
+              <marker ng-repeat="lugar in tab.lugares" position="[{{lugar.latlong}}]"></marker>
             </map>
           </div>
         </div>

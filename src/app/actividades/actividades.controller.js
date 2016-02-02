@@ -1,11 +1,27 @@
 module.exports = function(ngModule){
 	ngModule.controller('ActividadesCtrl',ActividadesCtrl);
 
-	function ActividadesCtrl(){
+	ActividadesCtrl.$inject = ['NgMap']
+	function ActividadesCtrl(NgMap){
 		console.log('ActividadesCtrl')
 		var vm = this;
+		 NgMap.getMap().then(function(map) {
+			console.log('map', map);
+			vm.map = map;
+		});
+
+		vm.showDetail = function(e, lugar) {
+			vm.lugar = lugar;
+			vm.map.showInfoWindow('foo-iw', lugar.id);
+		};
+
+		vm.hideDetail = function() {
+			vm.map.hideInfoWindow('foo-iw');
+		};
+
 		var tabs = [
-			{ 
+			{
+				id: 1, 
 				title: '21 al 23 enero',
 				actividad: {
 					title: "Curso-Taller de Actualización Técnica",
@@ -23,6 +39,7 @@ module.exports = function(ngModule){
 				]
 			},
 			{ 
+				id: 2,
 				title: '27 al 29 enero',
 				actividad: {
 					title: "Reunión Técnica",
@@ -39,7 +56,8 @@ module.exports = function(ngModule){
 					'15:00 - 19:00'
 				]
 			},
-			{ 
+			{
+				id:3,
 				title: '19 Febrero',
 				actividad: {
 					title: "Concurso de bandas de guerra",
@@ -57,6 +75,7 @@ module.exports = function(ngModule){
 				]
 			},
 			{ 
+				id:4,
 				title: '21 y 22 Febrero',
 				actividad: {
 					title: "Ensayos generales",
@@ -82,6 +101,7 @@ module.exports = function(ngModule){
 				]
 			},
 			{ 
+				id:5,
 				title: '23 Febrero',
 				actividad: {
 					title: "Visita a Escuelas",
@@ -90,7 +110,7 @@ module.exports = function(ngModule){
 				lugares:[
 							{
 								nombre: 'Escuelas de nivel básico y medio superior',
-								latlong: ""
+								latlong: "25.4267244, -100.99542539999999"
 							}
 						],
 				horarios: [
@@ -100,6 +120,7 @@ module.exports = function(ngModule){
 				]
 			},
 			{ 
+				id:6,
 				title: '23 Febrero',
 				actividad: {
 					title: "Toma de fotografía oficial",
@@ -117,6 +138,7 @@ module.exports = function(ngModule){
 		},
 
 			{ 
+				id: 7,
 				title: '24 Febrero',
 				actividad: {
 					title: "Izamiento de bandera",
@@ -138,6 +160,7 @@ module.exports = function(ngModule){
 				]
 			},
 			{ 
+				id: 8,
 				title: '24 Febrero',
 				actividad: {
 					title: "Ofrenda floral",
@@ -156,6 +179,7 @@ module.exports = function(ngModule){
 			},
 
 			{ 
+				id:9,
 				title: '24 Febrero',
 				actividad: {
 					title: "Ceremonia de Inauguración",
@@ -174,6 +198,7 @@ module.exports = function(ngModule){
 			},
 
 			{ 
+				id:10,
 				title: '25 Febrero',
 				actividad: {
 					title: "Presentaciones en municipios",
@@ -191,6 +216,7 @@ module.exports = function(ngModule){
 				]
 			},
 			{ 
+				id: 11,
 				title: '25 Febrero',
 				actividad: {
 					title: "Presentaciones en plazas públicas",
@@ -236,6 +262,7 @@ module.exports = function(ngModule){
 				]
 			},
 			{
+				id: 12,
 				title: '26 Febrero',
 				actividad: {
 					title: "Desfile por las calles de Saltillo",
@@ -253,6 +280,7 @@ module.exports = function(ngModule){
 				]
 			},
 			{
+				id: 13,
 				title: '26 Febrero',
 				actividad: {
 					title: "Ceremonia de Clausura",
