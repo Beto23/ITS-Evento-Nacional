@@ -60,8 +60,8 @@ module.exports = function(ngModule){
 				id:3,
 				title: '19 Febrero',
 				actividad: {
-					title: "Concurso de bandas de guerra",
-					desc: "Escuelas nivel primaria"
+					title: "Burrito Bandero 2016",
+					desc: "Concurso de bandas de guerra de Escuelas nivel primaria"
 				},
 				lugares:[
 							{
