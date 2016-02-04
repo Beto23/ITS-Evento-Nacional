@@ -24,8 +24,8 @@ module.exports = function(ngModule){
 				id: 1, 
 				title: '21 al 23 enero',
 				actividad: {
-					title: "Curso-Taller de Actualizaci\u00F3n T\u00E9cnica",
-					desc: "Dirigido a Instructores del nivel b\u00E1sico y medio superior de la localidad T\u00E9cnica"
+					title: "Curso-Taller de Actualizacion Tecnica",
+					desc: "Dirigido a Instructores del nivel basico y medio superior de la localidad Tecnica"
 				},
 				lugares:[
 						{
@@ -42,12 +42,12 @@ module.exports = function(ngModule){
 				id: 2,
 				title: '27 al 29 enero',
 				actividad: {
-					title: "Reuni\u00F3n T\u00E9cnica",
-					desc: "Equipo de apoyo t\u00E9cnico c\u00EDvico e Instructores de escoltas y bandas de guerra de los institutos participantes."
+					title: "Reunion Tecnica",
+					desc: "Equipo de apoyo tecnico civico e Instructores de escoltas y bandas de guerra de los institutos participantes."
 				},
 				lugares:[
 						{
-							nombre: 'Auditorio de Gesti\u00F3n Tecnol\u00F3gica y Vinculaci\u00F3n del ITS.',
+							nombre: 'Auditorio de Gestion Tecnologica y Vinculacion del ITS.',
 							latlong: "25.443667,-100.991779"
 						}
 					],
@@ -105,25 +105,25 @@ module.exports = function(ngModule){
 				title: '23 Febrero',
 				actividad: {
 					title: "Visita a Escuelas",
-					desc: "120 presentaciones de las Escoltas y Bandas de Guerra de los Institutos Tecnol\u00F3gicos participantes"
+					desc: "120 presentaciones de las Escoltas y Bandas de Guerra de los Institutos Tecnologicos participantes"
 				},
 				lugares:[
 							{
-								nombre: 'Escuelas de nivel b\u00E1sico y medio superior',
+								nombre: 'Escuelas de nivel basico y medio superior',
 								latlong: "25.4267244, -100.99542539999999"
 							}
 						],
 				horarios: [
-					'9:00-10:00',
-					'11:00-12:00',
-					'15:00-16:00'
+					'9:00 - 10:00',
+					'11:00 - 12:00',
+					'15:00 - 16:00'
 				]
 			},
 			{ 
 				id:6,
 				title: '23 Febrero',
 				actividad: {
-					title: "Toma de fotograf\u00EDa oficial",
+					title: "Toma de fotografia oficial",
 					desc: ""
 				},
 				lugares:[
@@ -133,7 +133,7 @@ module.exports = function(ngModule){
 							}
 						],
 				horarios: [
-					'18:00-21:00'
+					'18:00 - 21:00'
 				]
 		},
 
@@ -142,7 +142,7 @@ module.exports = function(ngModule){
 				title: '24 Febrero',
 				actividad: {
 					title: "Izamiento de bandera",
-					desc: "Incineraci\u00F3n de bandera y abanderamiento"
+					desc: "Incineracion de bandera y abanderamiento"
 				},
 				lugares:[
 							{
@@ -150,13 +150,13 @@ module.exports = function(ngModule){
 								latlong: "25.414002, -100.963048"
 							},
 							{
-								nombre: '69 b/i de la 6ª zona militar',
+								nombre: '69 b/i de la 6ta zona militar',
 								latlong: "25.371420, -101.010741"
 							}
 						],
 
 				horarios: [
-					'8:00 – 9:00'
+					'8:00 - 9:00'
 				]
 			},
 			{ 
@@ -182,18 +182,18 @@ module.exports = function(ngModule){
 				id:9,
 				title: '24 Febrero',
 				actividad: {
-					title: "Ceremonia de Inauguraci\u00F3n",
+					title: "Ceremonia de Inauguracion",
 					desc: ""
 				},
 				lugares:[
 							{
-								nombre: 'Estadio de b\u00E9isbol Fco. I Madero',
+								nombre: 'Estadio de beisbol Fco. I Madero',
 								latlong: "25.4335048,-100.9792932"
 							}
 						],
 
 				horarios: [
-					'18:00 – 20:00'
+					'18:00 - 20:00'
 				]
 			},
 
@@ -212,14 +212,14 @@ module.exports = function(ngModule){
 						],
 
 				horarios: [
-					'10:00 – 12:00'
+					'10:00 - 12:00'
 				]
 			},
 			{ 
 				id: 11,
 				title: '25 Febrero',
 				actividad: {
-					title: "Presentaciones en plazas p\u00FAblicas",
+					title: "Presentaciones en plazas publicas",
 					desc: ""
 				},
 				lugares:[
@@ -236,11 +236,11 @@ module.exports = function(ngModule){
 								latlong: "25.441544, -100.992572"
 							},
 							{
-								nombre: 'Jard\u00EDn de los Cedros y los Olivos',
+								nombre: 'Jardin de los Cedros y los Olivos',
 								latlong: "25.463203, -100.963938"
 							},
 							{
-								nombre: 'Plaza M\u00E9xico',
+								nombre: 'Plaza Mexico',
 								latlong: "25.412317, -101.000170"
 							},
 							{
@@ -258,7 +258,7 @@ module.exports = function(ngModule){
 						],
 
 				horarios: [
-					'17:00 – 19:00'
+					'17:00 - 19:00'
 				]
 			},
 			{
