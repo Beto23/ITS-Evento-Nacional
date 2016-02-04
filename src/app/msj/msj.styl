@@ -17,6 +17,7 @@
 		height 30em
 		margin 0
 	&-img
+		background-image: url(img/banner.jpg)
 		background-size 100% 100%
 		background-position center
 		height: 100%;
@@ -38,9 +39,17 @@
 				text-transform: uppercase;
 
 @media(max-width 800px)
-	.Msj-content
-		flex-direction column
-		.Msj-txt
+	.Msj
+		&-content
+			flex-direction column
+			margin 1em 0
+		&-txt
 			width 95%
 			padding 0
+		&-img
+			background-image: url(img/bannerH.jpg)
+@media(max-width 440px)
+	.Msj
+		&-img
+			background-image: url(img/banner.jpg)
 
