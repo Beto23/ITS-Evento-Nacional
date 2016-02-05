@@ -5,10 +5,10 @@
       <md-tab ng-repeat="tab in vm.tabs" ng-disabled="tab.disabled" label="{{tab.title}}">
         <div class="demo-tab tab{{$index%4}}" style="padding: 25px; text-align: center;">
            <h2 ng-bind-html="tab.actividad.title| to_trusted"></h2>
-          <p>{{tab.actividad.desc}}</p> 
+           <p ng-bind-html="tab.actividad.desc| to_trusted"></p>
           <ul>
             <p><b>Lugare(s):</b></p>
-            <li ng-repeat="lugar in tab.lugares"> {{lugar.nombre}}</li>
+            <li ng-repeat="lugar in tab.lugares" ng-bind-html="lugar.nombre| to_trusted"></li>
           </ul>
           <p>
           <ul class="tab-horarios">

@@ -13,7 +13,7 @@
           <md-list-item class="md-3-line container-delegaciones-items" ng-repeat="delegacion in delegaciones | filter:search">
               <img ng-src="{{delegacion.logoTec}}" class="md-avatar">
               <div class="md-list-item-text">
-                <h3>{{delegacion.tec}}</h3>
+                <h3 ng-bind-html="delegacion.tec| to_trusted"></h3>
                 <h4><a href="{{delegacion.href}}"><i class="fa fa-arrow-circle-down"></i> Programacion</a></h4>
                 <p>{{delegacion.sede}}</p>
               </div>

@@ -18,17 +18,17 @@ module.exports = function(ngModule){
 		      },
 		      {
 		        logoTec : './img/logosTecs/cancun.png',
-		        tec: 'IT Cancun',
+		        tec: 'IT Canc&#250;n',
 		        href: '#'
 		      },
 		      {
 		        logoTec : './img/logosTecs/cGuzman.jpg',
-		        tec: 'IT Ciudad Guzman',
+		        tec: 'IT Ciudad Guzm&#225;n',
 		        href: '#'
 		      },
 		      {
 		        logoTec : './img/logosTecs/cJuarez.jpg',
-		        tec: 'IT Ciudad Juarez',
+		        tec: 'IT Ciudad Ju&#225;rez',
 		        href: '#'
 		      },
 		      {
@@ -48,7 +48,7 @@ module.exports = function(ngModule){
 		      },
 		      {
 		        logoTec : './img/logosTecs/culiacan.png',
-		        tec: 'IT Culiacan',
+		        tec: 'IT Culiac&#225;n',
 		        href: '#'
 		      },
 		      {
@@ -93,12 +93,12 @@ module.exports = function(ngModule){
 		      },
 		      {
 		        logoTec : './img/logosTecs/merida.png',
-		        tec: 'IT Merida',
+		        tec: 'IT M&#233;rida',
 		        href: '#'
 		      },
 		      {
 		        logoTec : './img/logosTecs/minatitlan.png',
-		        tec: 'IT Minatitlan',
+		        tec: 'IT Minatitl&#225;n',
 		        href: '#'
 		      },
 		      {
@@ -123,7 +123,7 @@ module.exports = function(ngModule){
 		      },
 		      {
 		        logoTec : './img/logosTecs/queretaro.jpg',
-		        tec: 'IT Queretaro',
+		        tec: 'IT Quer&#233;taro',
 		        href: '#'
 		      },
 		      {
@@ -133,7 +133,7 @@ module.exports = function(ngModule){
 		      },
 		      {
 		        logoTec : './img/logosTecs/san luis potosi.png',
-		        tec: 'IT San Luis Potosi',
+		        tec: 'IT San Luis Potos&#237;',
 		        href: '#'
 		      },
 		      {
@@ -144,7 +144,7 @@ module.exports = function(ngModule){
 		      },
 		      {
 		        logoTec : './img/logosTecs/tehuacan.png',
-		        tec: 'IT Tehuacan',
+		        tec: 'IT Tehuac	&#225;n',
 		        href: '#'
 		      },
 		      {
@@ -164,7 +164,7 @@ module.exports = function(ngModule){
 		      },
 		      {
 		        logoTec : './img/logosTecs/tuxtla gutierrez.jpg',
-		        tec: 'IT Tuxtla Gutierrez',
+		        tec: 'IT Tuxtla Guti&#233;rrez',
 		        href: '#'
 		      },
 		      {
@@ -189,7 +189,7 @@ module.exports = function(ngModule){
 		      },
 		      {
 		        logoTec : './img/logosTecs/escarcega.jpg',
-		        tec: 'ITS Escarcega',
+		        tec: 'ITS Esc&#225;rcega',
 		        href: '#'
 		      },
 		      {
@@ -199,7 +199,7 @@ module.exports = function(ngModule){
 		      },
 		      {
 		        logoTec : './img/logosTecs/los rios.jpg',
-		        tec: 'ITS Los Rios',
+		        tec: 'ITS Los R&#237;os',
 		        href: '#'
 		      },
 		      {

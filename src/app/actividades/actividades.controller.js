@@ -24,8 +24,8 @@ module.exports = function(ngModule){
 				id: 1, 
 				title: '21 al 23 enero',
 				actividad: {
-					title: "Curso-Taller de Actualizaci&#243;n Tecnica",
-					desc: "Dirigido a Instructores del nivel basico y medio superior de la localidad Tecnica"
+					title: "Curso-Taller de Actualizaci&#243;n T&#233;cnica",
+					desc: "Dirigido a Instructores del nivel b&#225;sico y medio superior de la localidad T&#233;cnica"
 				},
 				lugares:[
 						{
@@ -42,12 +42,12 @@ module.exports = function(ngModule){
 				id: 2,
 				title: '27 al 29 enero',
 				actividad: {
-					title: "Reunion Tecnica",
-					desc: "Equipo de apoyo tecnico civico e Instructores de escoltas y bandas de guerra de los institutos participantes."
+					title: "Reuni&#243;n T&#233;cnica",
+					desc: "Equipo de apoyo t&#233;cnico c&#237;vico e Instructores de escoltas y bandas de guerra de los institutos participantes."
 				},
 				lugares:[
 						{
-							nombre: 'Auditorio de Gestion Tecnologica y Vinculacion del ITS.',
+							nombre: 'Auditorio de Gesti&#243;n Tecnol&#243;gica y Vinculaci&#243;n del ITS.',
 							latlong: "25.443667,-100.991779"
 						}
 					],
@@ -105,11 +105,11 @@ module.exports = function(ngModule){
 				title: '23 Febrero',
 				actividad: {
 					title: "Visita a Escuelas",
-					desc: "120 presentaciones de las Escoltas y Bandas de Guerra de los Institutos Tecnologicos participantes"
+					desc: "120 presentaciones de las Escoltas y Bandas de Guerra de los Institutos Tecnol&#243;gicos participantes"
 				},
 				lugares:[
 							{
-								nombre: 'Escuelas de nivel basico y medio superior',
+								nombre: 'Escuelas de nivel b&#225;sico y medio superior',
 								latlong: "25.4267244, -100.99542539999999"
 							}
 						],
@@ -123,7 +123,7 @@ module.exports = function(ngModule){
 				id:6,
 				title: '23 Febrero',
 				actividad: {
-					title: "Toma de fotografia oficial",
+					title: "Toma de fotograf&#237;a oficial",
 					desc: ""
 				},
 				lugares:[
@@ -142,7 +142,7 @@ module.exports = function(ngModule){
 				title: '24 Febrero',
 				actividad: {
 					title: "Izamiento de bandera",
-					desc: "Incineracion de bandera y abanderamiento"
+					desc: "Incineraci&#243;n de bandera y abanderamiento"
 				},
 				lugares:[
 							{
@@ -182,12 +182,12 @@ module.exports = function(ngModule){
 				id:9,
 				title: '24 Febrero',
 				actividad: {
-					title: "Ceremonia de Inauguracion",
+					title: "Ceremonia de Inauguraci&#243;n",
 					desc: ""
 				},
 				lugares:[
 							{
-								nombre: 'Estadio de beisbol Fco. I Madero',
+								nombre: 'Estadio de b&#233;isbol Fco. I Madero',
 								latlong: "25.4335048,-100.9792932"
 							}
 						],
@@ -206,7 +206,7 @@ module.exports = function(ngModule){
 				},
 				lugares:[
 							{
-								nombre: 'Áreas acordadas con los municipios',
+								nombre: '&#193;reas acordadas con los municipios',
 								latlong: "25.5402974,-100.950337"
 							}
 						],
@@ -219,7 +219,7 @@ module.exports = function(ngModule){
 				id: 11,
 				title: '25 Febrero',
 				actividad: {
-					title: "Presentaciones en plazas publicas",
+					title: "Presentaciones en plazas p&#250;blicas",
 					desc: ""
 				},
 				lugares:[
@@ -240,7 +240,7 @@ module.exports = function(ngModule){
 								latlong: "25.463203, -100.963938"
 							},
 							{
-								nombre: 'Plaza Mexico',
+								nombre: 'Plaza M&#233;xico',
 								latlong: "25.412317, -101.000170"
 							},
 							{
