@@ -24,7 +24,7 @@ module.exports = function(ngModule){
 				id: 1, 
 				title: '21 al 23 enero',
 				actividad: {
-					title: "Curso-Taller de Actualizacion Tecnica",
+					title: "Curso-Taller de Actualizaci\xf3n Tecnica",
 					desc: "Dirigido a Instructores del nivel basico y medio superior de la localidad Tecnica"
 				},
 				lugares:[

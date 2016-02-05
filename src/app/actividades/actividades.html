@@ -4,7 +4,7 @@
     <md-tabs md-selected="selectedIndex" md-border-bottom="" md-autoselect="" class="md-tabs">
       <md-tab ng-repeat="tab in vm.tabs" ng-disabled="tab.disabled" label="{{tab.title}}">
         <div class="demo-tab tab{{$index%4}}" style="padding: 25px; text-align: center;">
-          <h2>{{tab.actividad.title}}</h2>
+           <h2 ng-bind-html-unsafe="title"></h2>
           <p>{{tab.actividad.desc}}</p> 
           <ul>
             <p><b>Lugare(s):</b></p>
