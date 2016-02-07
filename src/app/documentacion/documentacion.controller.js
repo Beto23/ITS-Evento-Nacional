@@ -7,7 +7,7 @@ module.exports = function(ngModule){
 
 		    $scope.delegaciones = [
 		      {
-		        logoTec : './img/logosTecs/aguascalientes.gif',
+		        logoTec : './img/logosTecs/aguascalientes.jpg',
 		        tec: 'IT Aguascalientes',
 		        href: '#'
 		      },
@@ -17,7 +17,7 @@ module.exports = function(ngModule){
 		        href: '#'
 		      },
 		      {
-		        logoTec : './img/logosTecs/cancun.png',
+		        logoTec : './img/logosTecs/cancun.jpg',
 		        tec: 'IT Canc&#250;n',
 		        href: '#'
 		      },
@@ -32,7 +32,7 @@ module.exports = function(ngModule){
 		        href: '#'
 		      },
 		      {
-		        logoTec : './img/logosTecs/celaya.gif',
+		        logoTec : './img/logosTecs/celaya.jpg',
 		        tec: 'IT Celaya',
 		        href: '#'
 		      },
@@ -47,17 +47,17 @@ module.exports = function(ngModule){
 		        href: '#'
 		      },
 		      {
-		        logoTec : './img/logosTecs/culiacan.png',
+		        logoTec : './img/logosTecs/culiacan.jpg',
 		        tec: 'IT Culiac&#225;n',
 		        href: '#'
 		      },
 		      {
-		        logoTec : './img/logosTecs/delicias.png',
+		        logoTec : './img/logosTecs/delicias.jpg',
 		        tec: 'IT Delicias',
 		        href: '#'
 		      },
 		      {
-		        logoTec : './img/logosTecs/durango.png',
+		        logoTec : './img/logosTecs/durango.jpg',
 		        tec: 'IT Durango',
 		        href: '#'
 		      },
@@ -72,37 +72,37 @@ module.exports = function(ngModule){
 		        href: '#'
 		      },
 		      {
-		        logoTec : './img/logosTecs/huatabampo.png',
+		        logoTec : './img/logosTecs/huatabampo.jpg',
 		        tec: 'IT Huatabampo',
 		        href: '#'
 		      },
 		      {
-		        logoTec : './img/logosTecs/jiquilpan.png',
+		        logoTec : './img/logosTecs/jiquilpan.jpg',
 		        tec: 'IT Jiquilpan',
 		        href: '#'
 		      },
 		      {
-		        logoTec : './img/logosTecs/laguna.png',
+		        logoTec : './img/logosTecs/laguna.jpg',
 		        tec: 'IT Laguna',
 		        href: '#'
 		      },
 		      {
-		        logoTec : './img/logosTecs/los mochis.png',
+		        logoTec : './img/logosTecs/losMochis.jpg',
 		        tec: 'IT Los Mochis',
 		        href: '#'
 		      },
 		      {
-		        logoTec : './img/logosTecs/merida.png',
+		        logoTec : './img/logosTecs/merida.jpg',
 		        tec: 'IT M&#233;rida',
 		        href: '#'
 		      },
 		      {
-		        logoTec : './img/logosTecs/minatitlan.png',
+		        logoTec : './img/logosTecs/minatitlan.jpg',
 		        tec: 'IT Minatitl&#225;n',
 		        href: '#'
 		      },
 		      {
-		        logoTec : './img/logosTecs/morelia.png',
+		        logoTec : './img/logosTecs/morelia.jpg',
 		        tec: 'IT Morelia',
 		        href: '#'
 		      },
@@ -112,7 +112,7 @@ module.exports = function(ngModule){
 		        href: '#'
 		      },
 		      {
-		        logoTec : './img/logosTecs/nuevo laredo.gif',
+		        logoTec : './img/logosTecs/nuevoLaredo.jpg',
 		        tec: 'IT Nuevo Laredo',
 		        href: '#'
 		      },
@@ -132,38 +132,38 @@ module.exports = function(ngModule){
 		        href: '#'
 		      },
 		      {
-		        logoTec : './img/logosTecs/san luis potosi.png',
+		        logoTec : './img/logosTecs/sanLuisPotosi.jpg',
 		        tec: 'IT San Luis Potos&#237;',
 		        href: '#'
 		      },
 		      {
-		        logoTec : './img/logosTecs/saltillo.png',
+		        logoTec : './img/logosTecs/saltillo.jpg',
 		        tec: 'IT Saltillo',
 		        href: '#',
 		        sede: 'Sede'
 		      },
 		      {
-		        logoTec : './img/logosTecs/tehuacan.png',
+		        logoTec : './img/logosTecs/tehuacan.jpg',
 		        tec: 'IT Tehuac	&#225;n',
 		        href: '#'
 		      },
 		      {
-		        logoTec : './img/logosTecs/tepic.gif',
+		        logoTec : './img/logosTecs/tepic.jpg',
 		        tec: 'IT Tepic',
 		        href: '#'
 		      },
 		      {
-		        logoTec : './img/logosTecs/toluca.gif',
+		        logoTec : './img/logosTecs/toluca.png',
 		        tec: 'IT Toluca',
 		        href: '#'
 		      },
 		      {
-		        logoTec : './img/logosTecs/tuxtepec.gif',
+		        logoTec : './img/logosTecs/tuxtepec.jpg',
 		        tec: 'IT Tuxtepec',
 		        href: '#'
 		      },
 		      {
-		        logoTec : './img/logosTecs/tuxtla gutierrez.jpg',
+		        logoTec : './img/logosTecs/tuxtlaGutierrez.jpg',
 		        tec: 'IT Tuxtla Guti&#233;rrez',
 		        href: '#'
 		      },
@@ -173,17 +173,17 @@ module.exports = function(ngModule){
 		        href: '#'
 		      },
 		      {
-		        logoTec : './img/logosTecs/villa hermosa.png',
+		        logoTec : './img/logosTecs/villaHermosa.jpg',
 		        tec: 'IT Villa Hermosa',
 		        href: '#'
 		      },
 		      {
-		        logoTec : './img/logosTecs/arandas.png',
+		        logoTec : './img/logosTecs/arandas.jpg',
 		        tec: 'ITS Arandas',
 		        href: '#'
 		      },
 		      {
-		        logoTec : './img/logosTecs/coatzacoalcos.png',
+		        logoTec : './img/logosTecs/coatzacoalcos.jpg',
 		        tec: 'ITS Coatzacoalco',
 		        href: '#'
 		      },
@@ -193,22 +193,22 @@ module.exports = function(ngModule){
 		        href: '#'
 		      },
 		      {
-		        logoTec : './img/logosTecs/Los Reyes.png',
+		        logoTec : './img/logosTecs/LosReyes.jpg',
 		        tec: 'ITS Los Reyes',
 		        href: '#'
 		      },
 		      {
-		        logoTec : './img/logosTecs/los rios.jpg',
+		        logoTec : './img/logosTecs/losRios.jpg',
 		        tec: 'ITS Los R&#237;os',
 		        href: '#'
 		      },
 		      {
-		        logoTec : './img/logosTecs/nuevo casas grandes.png',
+		        logoTec : './img/logosTecs/nuevoCasasGrandes.jpg',
 		        tec: 'ITS Nuevo Casas Grandes',
 		        href: '#'
 		      },
 		      {
-		        logoTec : './img/logosTecs/santiago papasquiaro.gif',
+		        logoTec : './img/logosTecs/santiago-papasquiaro.jpg',
 		        tec: 'ITS Santiago Papasquiaro',
 		        href: '#'
 		      }
