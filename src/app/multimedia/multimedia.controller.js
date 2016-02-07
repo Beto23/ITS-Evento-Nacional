@@ -14,22 +14,22 @@ module.exports = function(ngModule){
 		multimedia.galeria = {}
 		multimedia.galeria.eventos = [
 			{
-				nombre: 'Inaguración',
-				fecha: '10 de febrero',
+				nombre: 'Evento1',
+				fecha: '',
 				img: './img/1.jpg',
 				galeria: ['./img/1.jpg','./img/2.jpg','./img/1.jpg','./img/2.jpg','./img/1.jpg','./img/2.jpg','./img/1.jpg','./img/2.jpg','./img/1.jpg','./img/2.jpg','./img/1.jpg','./img/2.jpg','./img/1.jpg','./img/2.jpg','./img/1.jpg','./img/2.jpg','./img/1.jpg','./img/2.jpg']
 			},
 			{
-				nombre: 'Inaguración2',
-				fecha: '10 de febrero',
+				nombre: 'Evento2',
+				fecha: '',
 				img: './img/1.jpg',
 				galeria: ['./img/1.jpg','./img/2.jpg']
 			},
 			{
-				nombre: 'Inaguración3',
-				fecha: '10 de febrero',
+				nombre: 'Evento3',
+				fecha: '',
 				img: './img/1.jpg',
-				galeria: ['./img/1.jpg']
+				galeria: ['./img/1.jpg', './img/banner.jpg']
 			}
 		]
 
