@@ -7,7 +7,7 @@
 			<article class="Multimedia-galeria Multimedia-content isOpen">
 				<div class="Galeria-img" ng-repeat="evento in multimedia.galeria.eventos track by $index">
 					<figure ng-click="multimedia.seleccionarEvento(evento.galeria);" style="background-image: url({{evento.img}})"></figure >
-					<h3>{{evento.nombre}}</h3>
+					<h3 ng-bind-html="evento.nombre| to_trusted"></h3>
 					<span>{{evento.fecha}}</span>
 				</div>
 			</article>
@@ -15,7 +15,7 @@
 		<div id="Multimedia-videos">
 			<h2 class="Multimedia-type"><i class="fa fa-video-camera"></i>Videos</h2>
 			<article class="Multimedia-videos Multimedia-content isOpen">
-				<div class="Galeria-img" ng-repeat="evento in multimedia.galeria.eventos">
+				<div class="Galeria-img">
 					<figure ng-click="multimedia.seleccionarEvento(evento.galeria);" style="background-image: url({{evento.img}})"></figure >
 					<h3>{{evento.nombre}}</h3>
 					<span>{{evento.fecha}}</span>

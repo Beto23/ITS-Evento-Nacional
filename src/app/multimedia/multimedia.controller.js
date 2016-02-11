@@ -14,22 +14,16 @@ module.exports = function(ngModule){
 		multimedia.galeria = {}
 		multimedia.galeria.eventos = [
 			{
-				nombre: 'Evento1',
+				nombre: 'Rueda de Prensa',
 				fecha: '',
-				img: './img/1.jpg',
-				galeria: ['./img/1.jpg','./img/2.jpg','./img/1.jpg','./img/2.jpg','./img/1.jpg','./img/2.jpg','./img/1.jpg','./img/2.jpg','./img/1.jpg','./img/2.jpg','./img/1.jpg','./img/2.jpg','./img/1.jpg','./img/2.jpg','./img/1.jpg','./img/2.jpg','./img/1.jpg','./img/2.jpg']
+				img: './img/boletin/rp2.jpg',
+				galeria: ['./img/boletin/rp2.jpg','./img/boletin/rp1.jpg','./img/boletin/rp3.jpg']
 			},
 			{
-				nombre: 'Evento2',
+				nombre: 'Taller de Instrucci&#243;n.',
 				fecha: '',
-				img: './img/1.jpg',
-				galeria: ['./img/1.jpg','./img/2.jpg']
-			},
-			{
-				nombre: 'Evento3',
-				fecha: '',
-				img: './img/1.jpg',
-				galeria: ['./img/1.jpg', './img/banner.jpg']
+				img: './img/boletin/ci2.jpg',
+				galeria: ['./img/boletin/ci1.jpg','./img/boletin/ci2.jpg','./img/boletin/ci33.jpg']
 			}
 		]
 
