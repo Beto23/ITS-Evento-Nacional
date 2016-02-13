@@ -22,8 +22,18 @@ module.exports = function(ngModule){
 		        href: '#'
 		      },
 		      {
+		        logoTec : './img/logosTecs/cuauhtemoc.jpg',
+		        tec: 'IT Ciudad Cuahutemoc',
+		        href: '#'
+		      },
+		      {
 		        logoTec : './img/logosTecs/cGuzman.jpg',
 		        tec: 'IT Ciudad Guzm&#225;n',
+		        href: '#'
+		      },
+		      {
+		        logoTec : './img/logosTecs/itHidalgo.jpg',
+		        tec: 'IT Ciudad Hidalgo',
 		        href: '#'
 		      },
 		      {
@@ -39,11 +49,6 @@ module.exports = function(ngModule){
 		      {
 		        logoTec : './img/logosTecs/chetumal.jpg',
 		        tec: 'IT Chetumal',
-		        href: '#'
-		      },
-		      {
-		        logoTec : './img/logosTecs/chihuaahua.jpg',
-		        tec: 'IT Chihuahua',
 		        href: '#'
 		      },
 		      {
@@ -94,6 +99,11 @@ module.exports = function(ngModule){
 		      {
 		        logoTec : './img/logosTecs/merida.jpg',
 		        tec: 'IT M&#233;rida',
+		        href: '#'
+		      },
+		      {
+		        logoTec : './img/logosTecs/mazatlan.jpg',
+		        tec: 'IT Mazatlan',
 		        href: '#'
 		      },
 		      {
@@ -163,11 +173,6 @@ module.exports = function(ngModule){
 		        href: '#'
 		      },
 		      {
-		        logoTec : './img/logosTecs/tuxtlaGutierrez.jpg',
-		        tec: 'IT Tuxtla Guti&#233;rrez',
-		        href: '#'
-		      },
-		      {
 		        logoTec : './img/logosTecs/veracruz.jpg',
 		        tec: 'IT Veracruz',
 		        href: '#'
@@ -180,11 +185,6 @@ module.exports = function(ngModule){
 		      {
 		        logoTec : './img/logosTecs/arandas.jpg',
 		        tec: 'ITS Arandas',
-		        href: '#'
-		      },
-		      {
-		        logoTec : './img/logosTecs/coatzacoalcos.jpg',
-		        tec: 'ITS Coatzacoalco',
 		        href: '#'
 		      },
 		      {
