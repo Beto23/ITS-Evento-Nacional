@@ -18,10 +18,10 @@
           </p>
           <md-button class="md-raised md-primary btn" ng-if="tab.id == 3"><a href="./pdfs/burrito- bandero.pdf" target="_blank">Convocarotia</a></md-button>
           <div>
-            <map ng-if="tab.id != 12" center="[{{tab.lugares[0].latlong}}]" zoom="14">
+            <map ng-if="tab.id != 14" center="[{{tab.lugares[0].latlong}}]" zoom="14">
               <marker ng-repeat="lugar in tab.lugares" position="[{{lugar.latlong}}]"></marker>
             </map>
-            <iframe ng-if="tab.id == 12" src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d14411.875587529777!2d-101.00712703537316!3d25.43930336653001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x86886d59eb5bc4d3%3A0x60771ba46d37358c!2sInstituto+Tecnol%C3%B3gico+de+Saltillo%2C+Rep%C3%BAblica%2C+Saltillo%2C+Coah.!3m2!1d25.4428098!2d-100.99287969999999!4m5!1s0x868872a10e93482b%3A0x3faa7cacfb2c33df!2sTeatro+de+la+Ciudad+Fernando+Soler%2C+Xicot%C3%A9ncatl%2C+Centro%2C+Zona+Centro%2C+25000+Saltillo%2C+Coah.!3m2!1d25.433693599999998!2d-101.0000038!5e0!3m2!1ses-419!2smx!4v1454391694681" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <iframe ng-if="tab.id == 14" src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d14411.875587529777!2d-101.00712703537316!3d25.43930336653001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x86886d59eb5bc4d3%3A0x60771ba46d37358c!2sInstituto+Tecnol%C3%B3gico+de+Saltillo%2C+Rep%C3%BAblica%2C+Saltillo%2C+Coah.!3m2!1d25.4428098!2d-100.99287969999999!4m5!1s0x868872a10e93482b%3A0x3faa7cacfb2c33df!2sTeatro+de+la+Ciudad+Fernando+Soler%2C+Xicot%C3%A9ncatl%2C+Centro%2C+Zona+Centro%2C+25000+Saltillo%2C+Coah.!3m2!1d25.433693599999998!2d-101.0000038!5e0!3m2!1ses-419!2smx!4v1454391694681" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
           </div>
         </div>
       </md-tab>

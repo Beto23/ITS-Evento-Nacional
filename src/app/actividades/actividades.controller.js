@@ -74,8 +74,26 @@ module.exports = function(ngModule){
 					'10:00'
 				]
 			},
-			{ 
+			{
 				id:4,
+				title: '21 Febrero',
+				actividad: {
+					title: "Registro de delegaciones",
+					desc: "Entrega de documentos oficiales, Asignaci\u00F3n de Hotel, Programaci\u00F3n de actividades y Refrigerio"
+				},
+				lugares:[
+							{
+								nombre: 'Estadio IT Saltillo',
+								latlong: "25.442400, -100.994395"
+							}
+						],
+
+				horarios: [
+					'07:00 - 9:00'
+				]
+			},
+			{ 
+				id:5,
 				title: '21 y 22 Febrero',
 				actividad: {
 					title: "Ensayos generales",
@@ -97,11 +115,12 @@ module.exports = function(ngModule){
 					],
 
 				horarios: [
-					'10:00 – 21:00'
+					'09:00 - 14:00',
+					'17:00 - 21:00'
 				]
 			},
 			{ 
-				id:5,
+				id:6,
 				title: '23 Febrero',
 				actividad: {
 					title: "Visita a Escuelas",
@@ -120,7 +139,7 @@ module.exports = function(ngModule){
 				]
 			},
 			{ 
-				id:6,
+				id:7,
 				title: '23 Febrero',
 				actividad: {
 					title: "Toma de fotograf&#237;a oficial",
@@ -138,7 +157,7 @@ module.exports = function(ngModule){
 		},
 
 			{ 
-				id: 7,
+				id: 8,
 				title: '24 Febrero',
 				actividad: {
 					title: "Izamiento de bandera",
@@ -148,10 +167,6 @@ module.exports = function(ngModule){
 							{
 								nombre: 'Parque las maravillas',
 								latlong: "25.414002, -100.963048"
-							},
-							{
-								nombre: '69 b/i de la 6ta zona militar',
-								latlong: "25.371420, -101.010741"
 							}
 						],
 
@@ -160,7 +175,7 @@ module.exports = function(ngModule){
 				]
 			},
 			{ 
-				id: 8,
+				id: 9,
 				title: '24 Febrero',
 				actividad: {
 					title: "Ofrenda floral",
@@ -174,12 +189,12 @@ module.exports = function(ngModule){
 						],
 
 				horarios: [
-					'11:00'
+					'11:00 - 12:00'
 				]
 			},
 
 			{ 
-				id:9,
+				id:10,
 				title: '24 Febrero',
 				actividad: {
 					title: "Ceremonia de Inauguraci&#243;n",
@@ -193,12 +208,12 @@ module.exports = function(ngModule){
 						],
 
 				horarios: [
-					'18:00 - 20:00'
+					'18:00 - 21:00'
 				]
 			},
 
 			{ 
-				id:10,
+				id:11,
 				title: '25 Febrero',
 				actividad: {
 					title: "Presentaciones en municipios",
@@ -216,7 +231,7 @@ module.exports = function(ngModule){
 				]
 			},
 			{ 
-				id: 11,
+				id: 12,
 				title: '25 Febrero',
 				actividad: {
 					title: "Presentaciones en plazas p&#250;blicas",
@@ -262,7 +277,25 @@ module.exports = function(ngModule){
 				]
 			},
 			{
-				id: 12,
+				id: 13,
+				title: '25 Febrero',
+				actividad: {
+					title: "Convivio a participantes",
+					desc: ""
+				},
+				lugares:[
+							{
+								nombre: 'Estadio IT Saltillo',
+								latlong: "25.442400, -100.994395"
+							}
+						],
+
+				horarios: [
+					'21:00 - 24:00'
+				]
+			},
+			{
+				id: 14,
 				title: '26 Febrero',
 				actividad: {
 					title: "Desfile por las calles de Saltillo",
@@ -280,7 +313,7 @@ module.exports = function(ngModule){
 				]
 			},
 			{
-				id: 13,
+				id: 15,
 				title: '26 Febrero',
 				actividad: {
 					title: "Ceremonia de Clausura",
