@@ -9,5 +9,6 @@ module.exports = function(){
 	require('./actividades/')(app);
 	require('./boletin/')(app);
 	require('./multimedia/')(app);
+	require('./more/')(app);
 
 }

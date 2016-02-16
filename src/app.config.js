@@ -28,8 +28,13 @@ module.exports = function(ngApp) {
 				controllerAs: 'boletin',
 				controller: 'BoletinCtrl'
 			})
+			.state('more',{
+				url: '/moreInfo',
+				template: require('./app/more/more.html'),
+				controllerAs: 'more',
+				controller: 'MoreCtrl'
+			})
 
-			
 	}
 
 	run.$inject = ['$rootScope','$state','$stateParams'];

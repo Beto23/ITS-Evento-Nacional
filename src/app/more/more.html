@@ -1,0 +1,20 @@
+<header-return></header-return>
+<section class="Container">
+	<h2>Lugares tur&iacutesticos</h2>
+	<div class="Container-Lugar">
+		<md-card class="Container-Lugar-card" ng-repeat="lugar in lugares">
+			<img src="{{lugar.img}}" class="md-card-image" alt="IMAGEN">
+			<md-card-title>
+			  <md-card-title-text>
+			    <span class="md-headline"><b>{{lugar.title}}</b></span>
+			  </md-card-title-text>
+			</md-card-title>
+			<md-card-content>
+				<p><i class="fa fa-phone iconosLugares"> {{lugar.phone}}</i></p>
+				<p><i class="fa fa-calendar iconosLugares"> {{lugar.dia}}</i></p>
+				<p><i class="fa fa-clock-o iconosLugares"> {{lugar.hora}}</i></p>
+				<p><i class="fa fa-map-marker iconosLugares"><a href="{{lugar.maps}}" target="_blank"> Google maps</a></i></p>
+			</md-card-content>
+		</md-card>
+	</div>
+</section>
