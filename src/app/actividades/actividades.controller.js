@@ -83,8 +83,8 @@ module.exports = function(ngModule){
 				},
 				lugares:[
 							{
-								nombre: 'Edificio de Vinculaci#243;n',
-								latlong: "25.442400, -100.994395"
+								nombre: 'Lobby de Vinculaci&#243;n',
+								latlong: "25.446139, -100.993458"
 							}
 						],
 
@@ -97,7 +97,7 @@ module.exports = function(ngModule){
 				title: '21 y 22 Febrero',
 				actividad: {
 					title: "Ensayos generales",
-					desc: "Escoltas y bandas de guerra de los tecnol#243;gicos"
+					desc: "Escoltas y bandas de guerra de los tecnol&#243;gicos"
 				},
 				lugares:[
 							{
