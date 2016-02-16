@@ -24,7 +24,7 @@ module.exports = function(ngModule){
 				id: 1, 
 				title: '21 al 23 enero',
 				actividad: {
-					title: "Curso-Taller de Actualizaci&#243;n T&#233;cnica",
+					title: "Curso-taller de actualizaci&#243;n t&#233;cnica",
 					desc: "Dirigido a Instructores del nivel b&#225;sico y medio superior de la localidad T&#233;cnica"
 				},
 				lugares:[
@@ -42,7 +42,7 @@ module.exports = function(ngModule){
 				id: 2,
 				title: '27 al 29 enero',
 				actividad: {
-					title: "Reuni&#243;n T&#233;cnica",
+					title: "Reuni&#243;n t&#233;cnica",
 					desc: "Equipo de apoyo t&#233;cnico c&#237;vico e Instructores de escoltas y bandas de guerra de los institutos participantes."
 				},
 				lugares:[
@@ -60,13 +60,13 @@ module.exports = function(ngModule){
 				id:3,
 				title: '19 Febrero',
 				actividad: {
-					title: "Burrito Bandero 2016",
+					title: "Burrito bandero 2016",
 					desc: "Concurso de bandas de guerra de Escuelas nivel primaria"
 				},
 				lugares:[
 							{
-								nombre: 'Frontispicio del IT Saltillo',
-								latlong: "25.441544, -100.992572"
+								nombre: 'Estadio IT Saltillo',
+								latlong: "25.442400, -100.994395"
 							}
 						],
 
@@ -79,11 +79,11 @@ module.exports = function(ngModule){
 				title: '21 Febrero',
 				actividad: {
 					title: "Registro de delegaciones",
-					desc: "Entrega de documentos oficiales, Asignaci\u00F3n de Hotel, Programaci\u00F3n de actividades y Refrigerio"
+					desc: "Entrega de documentos oficiales, Asignaci&#243;n de Hotel, Programaci&#243;n de actividades y Refrigerio"
 				},
 				lugares:[
 							{
-								nombre: 'Estadio IT Saltillo',
+								nombre: 'Edificio de Vinculaci#243;n',
 								latlong: "25.442400, -100.994395"
 							}
 						],
@@ -97,7 +97,7 @@ module.exports = function(ngModule){
 				title: '21 y 22 Febrero',
 				actividad: {
 					title: "Ensayos generales",
-					desc: "Escoltas y bandas de guerra de los tecnol\u00F3gicos"
+					desc: "Escoltas y bandas de guerra de los tecnol#243;gicos"
 				},
 				lugares:[
 							{
@@ -109,7 +109,7 @@ module.exports = function(ngModule){
 								latlong: "25.4335048,-100.9792932"
 							},
 							{
-								nombre: 'Estadio Ol\u00EDmpico',
+								nombre: 'Estadio Ol&#237;mpico',
 								latlong: "25.431873, -100.979790"
 							}
 					],
@@ -123,7 +123,7 @@ module.exports = function(ngModule){
 				id:6,
 				title: '23 Febrero',
 				actividad: {
-					title: "Visita a Escuelas",
+					title: "Visita a escuelas",
 					desc: "120 presentaciones de las Escoltas y Bandas de Guerra de los Institutos Tecnol&#243;gicos participantes"
 				},
 				lugares:[
@@ -178,8 +178,8 @@ module.exports = function(ngModule){
 				id: 9,
 				title: '24 Febrero',
 				actividad: {
-					title: "Ofrenda floral",
-					desc: "Personaje ilustre"
+					title: "Homenaje a personajes ilustres",
+					desc: "Ofrenda floral"
 				},
 				lugares:[
 							{
@@ -197,7 +197,7 @@ module.exports = function(ngModule){
 				id:10,
 				title: '24 Febrero',
 				actividad: {
-					title: "Ceremonia de Inauguraci&#243;n",
+					title: "Ceremonia de inauguraci&#243;n",
 					desc: ""
 				},
 				lugares:[
@@ -239,7 +239,7 @@ module.exports = function(ngModule){
 				},
 				lugares:[
 							{
-								nombre: 'Alameda Zaragozas',
+								nombre: 'Alameda Zaragoza',
 								latlong: "25.435572, -101.006237"
 							},
 							{
@@ -247,12 +247,12 @@ module.exports = function(ngModule){
 								latlong: "25.421711, -101.000392"
 							},
 							{
-								nombre: 'Frontispicio del ITS',
-								latlong: "25.441544, -100.992572"
+								nombre: 'Frontispicio del IT Saltillo',
+								latlong: "25.433781, -100.999990"
 							},
 							{
-								nombre: 'Jardin de los Cedros y los Olivos',
-								latlong: "25.463203, -100.963938"
+								nombre: 'Plaza Sendero',
+								latlong: "25.443790, -100.961180"
 							},
 							{
 								nombre: 'Plaza M&#233;xico',
