@@ -1,8 +1,12 @@
 <header-return></header-return>
 <section class="Container">
 	<h2>Lugares tur&iacutesticos</h2>
+	<div class="container-input">
+		<i class="fa fa-search"></i>
+		<input type="text" class="input" ng-model="search" >
+	</div>
 	<div class="Container-Lugar">
-		<md-card class="Container-Lugar-card" ng-repeat="lugar in lugares">
+		<md-card class="Container-Lugar-card" ng-repeat="lugar in lugares | filter:search">
 			<img src="{{lugar.img}}" class="md-card-image" alt="IMAGEN">
 			<md-card-title>
 			  <md-card-title-text>
