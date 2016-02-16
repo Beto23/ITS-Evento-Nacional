@@ -27,6 +27,13 @@ module.exports = function(ngModule){
 			}
 		]
 
+		multimedia.videos = [
+			{
+				nombre: 'Encuentro Nacional Estudiantil De Escoltas Y Bandas De Guerra',
+				url: './videos/encuentro.mp4'
+			}
+		]
+
 
 		multimedia.seleccionarEvento = function(galeria){
 			multimedia.isPopupOn = true;
