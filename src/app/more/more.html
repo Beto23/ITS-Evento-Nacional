@@ -10,12 +10,12 @@
 			<img src="{{lugar.img}}" class="md-card-image" alt="IMAGEN">
 			<md-card-title>
 			  <md-card-title-text>
-			    <span class="md-headline"><b>{{lugar.title}}</b></span>
+			    <span class="md-headline"><b ng-bind-html=" lugar.title| to_trusted"></b></span>
 			  </md-card-title-text>
 			</md-card-title>
 			<md-card-content>
 				<p><i class="fa fa-phone iconosLugares"> {{lugar.phone}}</i></p>
-				<p><i class="fa fa-calendar iconosLugares"> {{lugar.dia}}</i></p>
+				<p><i class="fa fa-calendar iconosLugares" ng-bind-html=" lugar.dia| to_trusted"></i></p>
 				<p><i class="fa fa-clock-o iconosLugares"> {{lugar.hora}}</i></p>
 				<p><i class="fa fa-map-marker iconosLugares"><a href="{{lugar.maps}}" target="_blank"> Google maps</a></i></p>
 			</md-card-content>

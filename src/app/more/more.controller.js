@@ -31,7 +31,7 @@ module.exports = function(ngModule){
 				hora: '10:00 - 18:00'
 			},
 			{
-				title: 'Museo de la Revolución Mexicana',
+				title: 'Museo de la Revoluci&#243;n Mexicana',
 				maps: 'https://www.google.com.mx/maps/place/Revoluci%C3%B3n+Mexicana/@25.4283236,-101.0286179,13z/data=!4m5!1m2!2m1!1smuseo+de+la+revoluci%C3%B3n+mexicana+saltillo!3m1!1s0x868872bc2cc9f01f:0xd6a557a07d33109a',
 				img: 'http://1.bp.blogspot.com/-qjdljk6n0mg/U3zPchAJuRI/AAAAAAAAALk/AvzjMMjk_T4/s1600/Museo+Revoluci%C3%B3n+Mexicana+Saltillo.jpg',
 				phone: '(844) 410-4794',
@@ -55,15 +55,15 @@ module.exports = function(ngModule){
 				hora: '10:00 - 17:00'
 			},
 			{
-				title: 'Centro Cultural Teatro García Carrillo',
+				title: 'Centro Cultural Teatro Garc&#237;a Carrillo',
 				maps: 'https://www.google.com.mx/maps/place/Centro+Cultural+Teatro+Garcia+Carrillo/@25.4235995,-101.0034732,17z/data=!3m1!4b1!4m2!3m1!1s0x868872bd0fc2de93:0x51f52df40576fa60',
 				img: 'http://1.bp.blogspot.com/-zWAFI9GObUQ/U07DW4dxsNI/AAAAAAAAAH4/W2XGxSE4rsw/s1600/CC+Teatro+Garc%C3%ADa+Carrillo+Saltillo.jpg',
 				phone: '(844) 4142426',
-				dia: 'Martes a Sábado',
+				dia: 'Martes a S&#225;bado',
 				hora: '10:00 - 14:00 y 16:00 - 17:00'
 			},
 			{
-				title: 'Museo Rubén Herrera',
+				title: 'Museo Rub&#233;n Herrera',
 				maps: 'https://www.google.com.mx/maps/place/Museo+Rub%C3%A9n+Herrera/@25.4205917,-101.0002209,17z/data=!3m1!4b1!4m2!3m1!1s0x868872bc03e010c9:0xfb00a833cc88c38a',
 				img: 'http://1.bp.blogspot.com/-nL3_svSI4B0/U07B8XXenlI/AAAAAAAAAHs/11oXD3yA83E/s1600/Museo+Rub%C3%A9n+Herrera+Saltillo.jpg',
 				phone: '(844) 4125939',
@@ -75,7 +75,7 @@ module.exports = function(ngModule){
 				maps: 'https://www.google.com.mx/maps/place/Centro+Cultural+Vito+Alesio+Robles/@25.4230445,-101.0015041,17z/data=!3m1!4b1!4m2!3m1!1s0x868872bcf60685e5:0x65425a5977bed4ab',
 				img: 'http://3.bp.blogspot.com/-DDuvrot5F7U/U07A8ccAFII/AAAAAAAAAHg/5nskV_FJuf4/s1600/CC+Vito+Alessio+Robles+Saltillo.jpg',
 				phone: '(844) 4126180',
-				dia: 'Martes a Sábado',
+				dia: 'Martes a S&#225;bado',
 				hora: ' 10:00 - 18:00'
 			},
 			{
@@ -115,11 +115,11 @@ module.exports = function(ngModule){
 				maps: 'https://www.google.com.mx/maps/place/Museo+del+Sarape+y+Trajes+Mexicanos/@25.4209857,-101.0039587,17z/data=!3m1!4b1!4m2!3m1!1s0x868872b7a2c9b44f:0x6489383173686d87',
 				img: 'http://4.bp.blogspot.com/-bRILGd4If1Y/U02A7BRNziI/AAAAAAAAAFo/XZJPc4wvWYU/s1600/Museo+Sarape.jpg',
 				phone: '(844) 4816900',
-				dia: 'Martes a Sábado',
+				dia: 'Martes a S&#225;bado',
 				hora: '10:00 - 18:00 y Domingos 11:00 am a 18:45'
 			},
 			{
-				title: 'Museo de las Aves de México',
+				title: 'Museo de las Aves de M&#233;xico',
 				maps: 'https://www.google.com.mx/maps/place/Museo+de+Las+Aves+de+M%C3%A9xico/@25.4166814,-101.0046639,17z/data=!3m1!4b1!4m2!3m1!1s0x868872bfce14a9eb:0x5b765f491e4819b1',
 				img: 'http://4.bp.blogspot.com/-ZS_NhYOSDbg/U02Dlh8GB8I/AAAAAAAAAF0/wGKBqK8iPb4/s1600/Museo+de+las+Aves.jpg',
 				phone: '(844) 4140167',
