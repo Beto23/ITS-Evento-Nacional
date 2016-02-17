@@ -1,6 +1,7 @@
 module.exports = function(ngModule){
 	ngModule.directive('header',header);
 	ngModule.directive('headerReturn',headerReturn);
+	ngModule.directive('headerMore', headerMore);
 
 	function header(){
 		return {
@@ -18,6 +19,12 @@ module.exports = function(ngModule){
 		return {
 			restrict: 'E',
 			template: require('./headerReturn.html')
+		};
+	};
+	function headerMore(){
+		return {
+			restrict: 'E',
+			template: require('./headerMore.html')
 		};
 	};
 };
