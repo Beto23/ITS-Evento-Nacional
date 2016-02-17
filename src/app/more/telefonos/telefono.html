@@ -1,0 +1,21 @@
+<header-more></header-more>
+<section class="gris Container">
+	<div class="Container-Tel">
+		<h4>Telefonos de Emergencias</h4>
+		<hr>
+	    <md-content style="height: 600px;" md-theme="altTheme" class="Tel-Lugares">
+	      <section>
+	        <md-list layout-padding class="container-delegaciones">
+	          <md-list-item class="md-3-line container-delegaciones-items container-telefonos-items" ng-repeat="emergencia in emergencias | filter:search">
+	              <img ng-src="{{emergencia.img}}" class="md-avatar">
+	              <div class="md-list-item-text">
+	                <h3 ng-bind-html="emergencia.lugar| to_trusted"></h3>
+	                <h3><i class="fa fa-phone"></i> {{emergencia.telefono}}</h3>
+	                <h3><i class="fa fa-map-marker"></i></i><a href="{{emergencia.maps}}"> Ver en google</a></h3>
+	              </div>
+	          </md-list-item>
+	        </md-list>
+	      </section>
+	    </md-content>
+	</div>
+</section>

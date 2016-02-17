@@ -34,6 +34,12 @@ module.exports = function(ngApp) {
 				controllerAs: 'more',
 				controller: 'MoreCtrl'
 			})
+			.state('telefonos',{
+				url: '/telefonos',
+				template: require('./app/more/telefonos/telefono.html'),
+				controllerAs: 'tel',
+				controller: 'TelController'
+			})
 
 	}
 
