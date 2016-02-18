@@ -16,7 +16,9 @@
 			<h2 class="Multimedia-type"><i class="fa fa-video-camera"></i>Videos</h2>
 			<article class="Multimedia-videos Multimedia-content isOpen">
 				<div ng-repeat="video in multimedia.videos" class="video">
-					<video src="{{video.url}}" width="400" controls></video>
+					<video controls>
+						<source src="{{video.url}}">
+					</video>
 					<h3>{{video.nombre}}</h3>
 					<!-- 
 					<figure ng-click="multimedia.seleccionarEvento(evento.galeria);" style="background-image: url({{evento.img}})"></figure > 

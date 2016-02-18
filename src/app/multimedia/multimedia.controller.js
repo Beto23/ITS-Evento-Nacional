@@ -30,7 +30,8 @@ module.exports = function(ngModule){
 		multimedia.videos = [
 			{
 				nombre: 'Encuentro Nacional Estudiantil De Escoltas Y Bandas De Guerra',
-				url: './videos/encuentro.mp4'
+				url: './videos/encuentro720p.mp4',
+				url2: './videos/encuentro360p.mp4'
 			}
 		]
 
