@@ -53,5 +53,13 @@ module.exports = function(ngModule){
 				maps: 'https://www.google.com.mx/maps/place/Comisi%C3%B3n+Estatal+de+Seguridad/@25.4121638,-100.9779788,17z/data=!3m1!4b1!4m2!3m1!1s0x86880d342515ccab:0xa9e861a95a55eb78'
 			}
 		]
+
+		$scope.telTec = [
+			{
+				area : 'Tecnol&#243;gico',
+				telefono : '(844) 438-9500',
+				img: './img/logoITS.png'
+			}
+		]
 	}
 }
