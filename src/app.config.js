@@ -29,7 +29,7 @@ module.exports = function(ngApp) {
 				controller: 'BoletinCtrl'
 			})
 			.state('more',{
-				url: '/moreInfo',
+				url: '/lugares',
 				template: require('./app/more/more.html'),
 				controllerAs: 'more',
 				controller: 'MoreCtrl'
