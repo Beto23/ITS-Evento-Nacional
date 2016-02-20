@@ -57,7 +57,47 @@ module.exports = function(ngModule){
 		$scope.telTec = [
 			{
 				area : 'Tecnol&#243;gico',
-				telefono : '(844) 438-9500',
+				telefono : '(844) 438-95-00',
+				img: './img/logoITS.png'
+			},
+			{
+				area : 'Direcci&#243;n',
+				telefono : '(844) 438-95-02',
+				img: './img/logoITS.png'
+			},
+			{
+				area : 'Sub. Dir. Administrativa',
+				telefono : '(844) 438-95-12',
+				img: './img/logoITS.png'
+			},
+			{
+				area : 'Sub. Dir. Planeaci&#243;n',
+				telefono : '(844) 438-95-06',
+				img: './img/logoITS.png'
+			},
+			{
+				area : 'Sub. Dir. Acad&#233;mica',
+				telefono : '(844) 438-95-04',
+				img: './img/logoITS.png'
+			},
+			{
+				area : 'Actividades Extraescolares',
+				telefono : '(844) 438-95-27',
+				img: './img/logoITS.png'
+			},
+			{
+				area : 'Comunicaci&#243;n y Difusi&#243;n',
+				telefono : '(844) 438-95-10',
+				img: './img/logoITS.png'
+			},
+			{
+				area : 'Gesti&#243;n Tecnol&#243;gica y Vinculaci&#243;n',
+				telefono : '(844) 438-95-17',
+				img: './img/logoITS.png'
+			},
+			{
+				area : 'Radio Tecnol&#243;gico  ',
+				telefono : '(844) 438-95-23',
 				img: './img/logoITS.png'
 			}
 		]
