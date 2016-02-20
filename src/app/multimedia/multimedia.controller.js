@@ -20,10 +20,34 @@ module.exports = function(ngModule){
 				galeria: ['./img/boletin/rp2.jpg','./img/boletin/rp1.jpg','./img/boletin/rp3.jpg']
 			},
 			{
+				nombre: 'Reuni&#243;n de Log&#237;stica',
+				fecha: '',
+				img: './img/boletin/rl1.jpg',
+				galeria: ['./img/boletin/rl2.jpg','./img/boletin/rl1.jpg','./img/boletin/rl3.jpg']
+			},
+			{
 				nombre: 'Taller de Instrucci&#243;n.',
 				fecha: '',
 				img: './img/boletin/ci2.jpg',
-				galeria: ['./img/boletin/ci1.jpg','./img/boletin/ci2.jpg','./img/boletin/ci33.jpg']
+				galeria: ['./img/boletin/ci1.jpg','./img/boletin/ci2.jpg','./img/boletin/ci33.jpg', './img/boletin/ci4.jpg', './img/boletin/ci5.jpg']
+			},
+			{
+				nombre: 'Reuni&#243;n T&#233;cnica',
+				fecha: '',
+				img: './img/boletin/rt1.jpg',
+				galeria: ['./img/boletin/rt1.jpg','./img/boletin/rt2.jpg','./img/boletin/rt3.jpg', './img/boletin/rt4.jpg', './img/boletin/rt5.jpg']
+			},
+			{
+				nombre: 'Rueda de Prensa',
+				fecha: '',
+				img: './img/boletin/rpp1.jpg',
+				galeria: ['./img/boletin/rpp1.jpg','./img/boletin/rpp2.jpg','./img/boletin/rpp3.jpg', './img/boletin/rpp4.jpg']
+			},
+			{
+				nombre: 'Reunión con la comisión de Tránsito y Vialidad',
+				fecha: '',
+				img: './img/boletin/poli1.jpg',
+				galeria: ['./img/boletin/poli1.jpg','./img/boletin/poli2.jpg','./img/boletin/poli5.jpg', './img/boletin/poli4.jpg', './img/boletin/poli6.jpg']
 			}
 		]
 
