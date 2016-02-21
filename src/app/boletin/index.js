@@ -8,6 +8,7 @@ module.exports = function(ngModule){
 	require('./boletin4/')(ngModule);
 	require('./boletin5/')(ngModule);
 	require('./boletin6/')(ngModule);
+	require('./boletin7/')(ngModule);
 
 
 
