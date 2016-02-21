@@ -44,10 +44,22 @@ module.exports = function(ngModule){
 				galeria: ['./img/boletin/rpp1.jpg','./img/boletin/rpp2.jpg','./img/boletin/rpp3.jpg', './img/boletin/rpp4.jpg']
 			},
 			{
-				nombre: 'Reunión con la comisión de Tránsito y Vialidad',
+				nombre: 'Reuni&#243;n con la comisi&#243;n de Tr&#225;nsito y Vialidad',
 				fecha: '',
 				img: './img/boletin/poli1.jpg',
 				galeria: ['./img/boletin/poli1.jpg','./img/boletin/poli2.jpg','./img/boletin/poli5.jpg', './img/boletin/poli4.jpg', './img/boletin/poli6.jpg']
+			},
+			{
+				nombre: 'Burrito Bandero 2016',
+				fecha: '',
+				img: './img/boletin/bb1.jpg',
+				galeria: ['./img/boletin/bb1.jpg','./img/boletin/bb2.jpg','./img/boletin/bb5.jpg', './img/boletin/bb4.jpg', './img/boletin/bb3.jpg']
+			},
+			{
+				nombre: 'Reuni&#243;n entre Comisiones y Representantes del TecNM.',
+				fecha: '',
+				img: './img/boletin/sm1.jpg',
+				galeria: ['./img/boletin/sm1.jpg','./img/boletin/sm2.jpg','./img/boletin/sm5.jpg', './img/boletin/sm4.jpg', './img/boletin/sm3.jpg']
 			}
 		]
 
