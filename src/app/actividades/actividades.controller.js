@@ -101,21 +101,27 @@ module.exports = function(ngModule){
 				},
 				lugares:[
 							{
-								nombre: 'Estadio IT Saltillo',
+								nombre: 'Estadio IT Saltillo (21)',
 								latlong: "25.442400, -100.994395"
+							},
+							{
+								nombre: 'Parque las Maravillas (22)',
+								latlong: "25.414002, -100.963048"
 							},
 							{
 								nombre: 'Estadio Fco. I. Madero',
 								latlong: "25.4335048,-100.9792932"
 							},
 							{
-								nombre: 'Estadio Ol&#237;mpico',
+								nombre: 'Estadio Ol&#237;mpico (22)',
 								latlong: "25.431873, -100.979790"
 							}
 					],
 
 				horarios: [
 					'09:00 - 14:00',
+					'08:00 - 09:00',
+					'10:00 - 14:00',
 					'17:00 - 21:00'
 				]
 			},
