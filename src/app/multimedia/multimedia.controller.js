@@ -60,6 +60,12 @@ module.exports = function(ngModule){
 				fecha: '',
 				img: './img/boletin/sm1.jpg',
 				galeria: ['./img/boletin/sm1.jpg','./img/boletin/sm2.jpg','./img/boletin/sm5.jpg', './img/boletin/sm4.jpg', './img/boletin/sm3.jpg']
+			},
+			{
+				nombre: 'Llegada y Registro de Praticipantes.',
+				fecha: '',
+				img: './img/boletin/rl1.jpg',
+				galeria: ['./img/boletin/rl1.jpg','./img/boletin/rl2.jpg','./img/boletin/rl5.jpg', './img/boletin/rl4.jpg', './img/boletin/rl3.jpg', './img/boletin/rl6.jpg', './img/boletin/rl7.jpg', './img/boletin/rl8.jpg', './img/boletin/rl9.jpg', './img/boletin/rl10.jpg', './img/boletin/rl11.jpg','./img/boletin/rl12.jpg','./img/boletin/rl13.jpg']
 			}
 		]
 
