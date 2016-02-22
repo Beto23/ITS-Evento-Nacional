@@ -1,10 +1,10 @@
 <section id="Documentacion" class="OnePageSection  bgFullPage Documentacion gris">
   <div layout="column" flex layout-fill ng-cloak class="u-wrapper-90 Docu">
-      <div class="title-programacion"><h2 class="wow bounceInRight">Programaci&oacuten De Actividades Por Delegaci&oacuten</h2></div>
+      <div class="title-programacion"><h2 class="wow bounceInRight">Delegaciones Participantes</h2></div>
     <md-content style="height: 600px;" md-theme="altTheme">
       <section>
         <md-subheader class="md-primary">
-          <p>Tecnol&oacutegicos<br> Participantes</p>
+          <p>Tecnol&oacutegicos</p>
           <i class="fa fa-search">
             <input type="text" class="input" ng-model="search">
           </i>
@@ -14,7 +14,7 @@
               <img ng-src="{{delegacion.logoTec}}" class="md-avatar">
               <div class="md-list-item-text">
                 <h3 ng-bind-html="delegacion.tec| to_trusted"></h3>
-                <h4><a href="{{delegacion.href}}"><i class="fa fa-arrow-circle-down"></i> Programacion</a></h4>
+                <h4 ng-if="{{delegacion.href}}"><a href="{{delegacion.href}}"><i class="fa fa-arrow-circle-down"></i> Programacion</a></h4>
                 <p>{{delegacion.sede}}</p>
               </div>
           </md-list-item>
