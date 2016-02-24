@@ -1,8 +1,8 @@
 module.exports = function(ngModule){
 	ngModule.controller('documentacionCtrl', documentacionCtrl);
 
-	documentacionCtrl.$inject = ['HelpersFactory', '$scope']
-	function documentacionCtrl(HelpersFactory, $scope){
+	documentacionCtrl.$inject = ['HelpersFactory', '$scope', '$mdDialog', '$mdMedia']
+	function documentacionCtrl(HelpersFactory, $scope, $mdDialog, $mdMedia){
 		HelpersFactory.bgFullPage();
 
 		    $scope.delegaciones = [
@@ -141,6 +141,8 @@ module.exports = function(ngModule){
 		      {
 		        logoTec : './img/logosTecs/tuxtepec.jpg',
 		        tec: 'IT Tuxtepec',
+		        nombre: "Instituto Tecnol&oacutegico de Tuxtepec",
+		        descripcion: 'Hace sus inicios y fundación en octubre del 2007 bajo la dirección e instrucción del Ing. Saúl Rosales Zendejas, para hacer su primer desfile el 20 de noviembre de ese mismo año. El 5 de mayo del 2008 hace gran relevancia al participar en el desfile siendo la primer banda de guerra con uniforme de gala tipo colegio militar. A partir de esta fecha han sido contantes destacando siempre en todos los eventos. Sus participaciones principales son:<ul class="uls"><li class="lis">Desfiles del 5 de Mayo, 16 de Septiembre, 20 de Noviembre, en la ciudad de Tuxtepec, Oaxaca.</li><li class="lis">Ceremonias de Graduación del Instituto Tecnológico de Tuxtepec y del Instituto Tecnológico de la Cuenca del Papaloapan.</li><li class="lis">Concursos Regionales de Bandas de Guerra Categoría libres Obteniendo 1°s y 2°s Lugares.</li></ul>',
 		        link: 'showtuxtepec($event)'
 		      },
 		      {
@@ -183,5 +185,37 @@ module.exports = function(ngModule){
 		        link: 'showPapasquiaro($event)'
 		      }
 		    ];
+
+
+		$scope.customFullscreen = $mdMedia('xs') || $mdMedia('sm');
+
+		$scope.show = function(delegacion) {
+			var useFullScreen = ($mdMedia('sm') || $mdMedia('xs'))  && $scope.customFullscreen;
+				$mdDialog.show({
+					controller: DialogController,
+					url: '/popup',
+					template: require ('./popupSemblanza.html'),
+					parent: angular.element(document.body),
+					clickOutsideToClose:true,
+					fullscreen: useFullScreen,
+					locals: {
+						delegacion: delegacion
+					},
+				})
+		};
+
 	};
+	DialogController.$inject = ['$scope', '$mdDialog', 'delegacion']
+	function DialogController($scope, $mdDialog, delegacion) {
+	  $scope.hide = function() {
+	    $mdDialog.hide();
+	  };
+	  $scope.delegacion = delegacion;
+	  $scope.cancel = function() {
+	    $mdDialog.cancel();
+	  };
+	  $scope.answer = function(answer) {
+	    $mdDialog.hide(answer);
+	  };
+	}
 };

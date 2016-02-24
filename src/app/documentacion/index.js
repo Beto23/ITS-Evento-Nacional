@@ -12,4 +12,5 @@ module.exports = function(ngModule){
 	require('./veracruz/')(ngModule);
 	require('./tuxtepec/')(ngModule);
 
+	require('./popupSemblanza.directive.js')
 }

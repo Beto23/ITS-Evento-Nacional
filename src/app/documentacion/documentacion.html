@@ -14,7 +14,7 @@
               <img ng-src="{{delegacion.logoTec}}" class="md-avatar">
               <div class="md-list-item-text">
                 <h3 ng-bind-html="delegacion.tec| to_trusted"></h3>
-                <button ng-click="{{delegacion.link}}">semblanza</button>
+                <button ng-click="show(delegacion);">semblanza</button>
                 <p>{{delegacion.sede}}</p>
               </div>
           </md-list-item>
