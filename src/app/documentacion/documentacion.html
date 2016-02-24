@@ -1,4 +1,4 @@
-<section id="Documentacion" class="OnePageSection  bgFullPage Documentacion gris" ng-controller="tuxtepecCtrl">
+<section id="Documentacion" class="OnePageSection  bgFullPage Documentacion gris">
   <div layout="column" flex layout-fill ng-cloak class="u-wrapper-90 Docu">
       <div class="title-programacion"><h2 class="wow bounceInRight">Delegaciones Participantes</h2></div>
     <md-content style="height: 600px;" md-theme="altTheme">
@@ -14,7 +14,7 @@
               <img ng-src="{{delegacion.logoTec}}" class="md-avatar">
               <div class="md-list-item-text">
                 <h3 ng-bind-html="delegacion.tec| to_trusted"></h3>
-                <button ng-click="show(delegacion);">semblanza</button>
+                <button ng-click="show(delegacion);" class="semblanza"><i class="fa fa-info-circle"></i> semblanza</button>
                 <p>{{delegacion.sede}}</p>
               </div>
           </md-list-item>
