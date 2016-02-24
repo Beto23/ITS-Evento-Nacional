@@ -28,7 +28,9 @@ module.exports = function(ngModule){
 		      },
 		      {
 		        logoTec : './img/logosTecs/itHidalgo.jpg',
-		        tec: 'IT Ciudad Hidalgo'
+		        tec: 'IT Ciudad Hidalgo',
+		        link: 'showhidalgo($event)'
+
 		      },
 		      {
 		        logoTec : './img/logosTecs/cJuarez.jpg',
@@ -56,7 +58,8 @@ module.exports = function(ngModule){
 		      },
 		      {
 		        logoTec : './img/logosTecs/felipeCarrillo.jpg',
-		        tec: 'IT Felipe Carrillo'
+		        tec: 'IT Felipe Carrillo',
+		        link: 'showfelipeCarrillo($event)'
 		      },
 		      {
 		        logoTec : './img/logosTecs/hermosillo.jpg',
@@ -137,23 +140,28 @@ module.exports = function(ngModule){
 		      },
 		      {
 		        logoTec : './img/logosTecs/tuxtepec.jpg',
-		        tec: 'IT Tuxtepec'
+		        tec: 'IT Tuxtepec',
+		        link: 'showtuxtepec($event)'
 		      },
 		      {
 		        logoTec : './img/logosTecs/veracruz.jpg',
-		        tec: 'IT Veracruz'
+		        tec: 'IT Veracruz',
+		        link: 'showveracruz($event)'
 		      },
 		      {
 		        logoTec : './img/logosTecs/villaHermosa.jpg',
-		        tec: 'IT Villa Hermosa'
+		        tec: 'IT Villa Hermosa',
+		        link: 'showvillahermosa($event)'
 		      },
 		      {
 		        logoTec : './img/logosTecs/arandas.jpg',
-		        tec: 'ITS Arandas'
+		        tec: 'ITS Arandas',
+		        link: 'showarandas($event)'
 		      },
 		      {
 		        logoTec : './img/logosTecs/escarcega.jpg',
-		        tec: 'ITS Esc&#225;rcega'
+		        tec: 'ITS Esc&#225;rcega',
+		        link: 'showescarcega($event)'
 		      },
 		      {
 		        logoTec : './img/logosTecs/LosReyes.jpg',
@@ -161,18 +169,19 @@ module.exports = function(ngModule){
 		      },
 		      {
 		        logoTec : './img/logosTecs/losRios.jpg',
-		        tec: 'ITS Los R&#237;os'
+		        tec: 'ITS Los R&#237;os',
+		        link: 'showrios($event)'
 		      },
 		      {
 		        logoTec : './img/logosTecs/nuevoCasasGrandes.jpg',
-		        tec: 'ITS Nuevo Casas Grandes'
+		        tec: 'ITS Nuevo Casas Grandes',
+		        link: 'showCasas($event)'
 		      },
 		      {
 		        logoTec : './img/logosTecs/santiago-papasquiaro.jpg',
-		        tec: 'ITS Santiago Papasquiaro'
+		        tec: 'ITS Santiago Papasquiaro',
+		        link: 'showPapasquiaro($event)'
 		      }
 		    ];
 	};
-
-
 };
