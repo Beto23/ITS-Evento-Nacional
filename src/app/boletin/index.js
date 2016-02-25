@@ -11,6 +11,10 @@ module.exports = function(ngModule){
 	require('./boletin7/')(ngModule);
 	require('./boletin8/')(ngModule);
 	require('./boletin9/')(ngModule);
+	require('./boletin10/')(ngModule);
+	require('./boletin11/')(ngModule);
+	require('./boletin12/')(ngModule);
+
 
 
 
