@@ -58,7 +58,7 @@ module.exports = function(ngModule){
 		        logoTec : './img/logosTecs/chetumal.jpg',
 		        tec: 'IT Chetumal',
 		        nombre: 'Instituto Tecnol&#243;gico de Chetumal',
-		        descripcion: ''
+		        descripcion: '<p>La Banda de Guerra y Escolta Mapaches del <b>Instituto Tecnol&oacute;gico de Chetumal</b> fue fundada en el a&ntilde;o de 1989, desde ese a&ntilde;o ha venido participando en diferentes eventos c&iacute;vicos representando dignamente al Instituto, haciendo gala en cada una de sus presentaciones de su marcialidad, disciplina y respeto a los s&iacute;mbolos patrios , en el a&ntilde;o 2004, la Banda de Guerra y Escolta Mapaches del Instituto Tecnol&oacute;gico De Chetumal, particip&oacute; por primera vez en el X Encuentro Nacional de Bandas de Guerra y Escoltas de los Institutos Tecnol&oacute;gicos realizado en la ciudad de Zacatecas, Zacatecas. A partir este nacional ha participado en cada uno de los encuentros nacionales de nuestro sistema en los tecnol&oacute;gicos de Morelia, Chihuahua, Orizaba, Reynosa, Tuxtla Guti&eacute;rrez, M&eacute;xico, San Luis Potos&iacute; ,Minatitl&aacute;n, La Laguna, entre otros.</p><p>En febrero de 2014 tuvo la oportunidad de ser orgullosa sede del XX Encuentro Nacional de Escoltas y Bandas de Guerra en donde recibi&oacute; el Espad&iacute;n que representa a cada una de las Escoltas y Bandas de Guerra de nuestro sistema el cual estuvo bajo su resguardo durante un a&ntilde;o y fue entregado al Tecnol&oacute;gico de Nuevo Laredo en febrero del 2015. <br>En la actualidad el Ing. Mario Vicente Gonz&aacute;lez Robles Director del Instituto Tecnol&oacute;gico de Chetumal es el principal impulsor y promotor de las Actividades Extraescolares que se imparten en el instituto, Refrendando el compromiso de nuestro sistema educativo de brindarles a sus estudiantes una educaci&oacute;n integral, en la que prevalecen los valores c&iacute;vicos y patrios, complementando su formaci&oacute;n acad&eacute;mica Bajo el lema institucional Cultura, Ciencia y Tecnolog&iacute;a para la superaci&oacute;n de M&eacute;xico</p><p>La Escolta y Banda de Guerra del Instituto Tecnol&oacute;gico de Chetumal se encuentra bajo la instrucci&oacute;n del Profr. Edgar Aurelio Llanes Torres, y en cada una de sus presentaciones va sembrando el cari&ntilde;o y respeto que debemos tener como mexicanos a nuestro Pa&iacute;s.</p>'
 		      },
 		      {
 		        logoTec : './img/logosTecs/culiacan.jpg',
@@ -232,7 +232,8 @@ module.exports = function(ngModule){
 		      {
 		        logoTec : './img/logosTecs/LosReyes.jpg',
 		        tec: 'ITS Los Reyes',
-		        nombre: 'Instituto Tecnol&#243;gico de Los Reyes'
+		        nombre: 'Instituto Tecnol&#243;gico de Los Reyes',
+		        descripcion: '<p>La Banda de Guerra y Escolta (Coyotes) del Tecnol&oacute;gico de Los Reyes, Michoac&aacute;n; fundada hace apenas una d&eacute;cada, se encuentra consolidada como el mejor grupo c&iacute;vico en la Regi&oacute;n de Los Reyes, ellos Han participado en los eventos nacionales de los tecnol&oacute;gicos desde 6 a&ntilde;os, en la Ciudad de M&eacute;xico 2010, San Luis, Potos&iacute; 2011, Minatitl&aacute;n, Veracruz 2012; Torre&oacute;n, Coahuila 2013; Chetumal, Quintana Roo 2014, Nuevo Laredo, Tamaulipas 2015 y ahora en este 2016 en Saltillo, Coahuila; actualmente es dirigido por el ING. Arturo Emmanuel Garc&iacute;a Contreras.</p>'
 		      },
 		      {
 		        logoTec : './img/logosTecs/losRios.jpg',
