@@ -66,6 +66,36 @@ module.exports = function(ngModule){
 				fecha: '',
 				img: './img/boletin/rl1.jpg',
 				galeria: ['./img/boletin/rl1.jpg','./img/boletin/rl2.jpg','./img/boletin/rl5.jpg', './img/boletin/rl4.jpg', './img/boletin/rl3.jpg', './img/boletin/rl6.jpg', './img/boletin/rl7.jpg', './img/boletin/rl8.jpg', './img/boletin/rl9.jpg', './img/boletin/rl10.jpg', './img/boletin/rl11.jpg','./img/boletin/rl12.jpg','./img/boletin/rl13.jpg']
+			},
+			{
+				nombre: 'Visita a Escuelas de la Localidad.',
+				fecha: '',
+				img: './img/boletin/ve1.jpg',
+				galeria: ['./img/boletin/ve1.jpg','./img/boletin/ve2.jpg','./img/boletin/ve5.jpg', './img/boletin/ve4.jpg', './img/boletin/ve3.jpg']
+			},
+			{
+				nombre: 'Izamiento e Incineraci&#243;n de Bandera',
+				fecha: '',
+				img: './img/boletin/ii2.jpg',
+				galeria: ['./img/boletin/ii1.jpg','./img/boletin/ii2.jpg','./img/boletin/ii5.jpg', './img/boletin/ii4.jpg', './img/boletin/ii3.jpg']
+			},
+			{
+				nombre: 'Ofrenda Floral a Personajes Ilustres',
+				fecha: '',
+				img: './img/boletin/of2.jpg',
+				galeria: ['./img/boletin/of1.jpg','./img/boletin/of2.jpg','./img/boletin/of5.jpg', './img/boletin/of4.jpg', './img/boletin/of3.jpg']
+			},
+			{
+				nombre: 'Ceremonia de Inauguraci&oacute;n',
+				fecha: '',
+				img: './img/boletin/in1.jpg',
+				galeria: ['./img/boletin/in1.jpg','./img/boletin/in2.jpg','./img/boletin/in5.jpg', './img/boletin/in4.jpg', './img/boletin/in3.jpg']
+			},
+			{
+				nombre: 'Visitas a Municipios y Plazas P&uacute;blicas de Saltillo',
+				fecha: '',
+				img: './img/boletin/vmp1.jpg',
+				galeria: ['./img/boletin/vmp1.jpg','./img/boletin/vmp2.jpg','./img/boletin/vmp5.jpg', './img/boletin/vmp4.jpg', './img/boletin/vmp3.jpg']
 			}
 		]
 
