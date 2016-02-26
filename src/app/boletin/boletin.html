@@ -2,8 +2,13 @@
 <div class="gris section-boletin">
 	<div id="Boletin" class="Container-Boletin u-wrapper-90" >
 		<h2>Bolet&iacuten</h2>
-		<button id="desc"><i class="fa fa-sort-amount-asc"></i></button>
-		<button id="asc"><i class="fa fa-sort-amount-desc"></i></button>
+		<md-button class="md-raised" id="asc">
+			<i class="fa fa-sort-amount-desc"></i>
+		</md-button>
+		<md-button class="md-raised" id="desc">
+			<i class="fa fa-sort-amount-asc"></i>
+		</md-button>
+
 		<div ng-cloak class="Container-Boletin-Boletines" id="numBoletin">
 			<boletin-uno class="Container-Boletin-Boletines-Card  bb"></boletin-uno>
 			<boletin-tres class="Container-Boletin-Boletines-Card  bb"></boletin-tres>
